@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500&display=swap');
+
+/* Global site */
+* {
+    font-family: "Lexend", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ff6600;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #003884;
+    padding: 10px; 
+}
+
+.navbar-brand {
+    padding-left: 20px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    padding-right: 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 10px;
+}
+
+.navbar-nav a:hover {
+    background-color: #ff6600;
+    border: greenyellow 2px solid;
+}
