@@ -18,6 +18,7 @@ body {
 .navbar {
     background-color: #003884;
     padding: 10px; 
+    position: fixed;
 }
 
 .navbar-brand {
@@ -30,13 +31,78 @@ body {
 
 .navbar-nav {
     padding-right: 30px;
+    padding-left: 15px;
+    /* padding-left: 50px; */
     letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
-    word-spacing: 10px;
+    /* word-spacing: 50px; */
 }
 
 .navbar-nav a:hover {
     background-color: #ff6600;
     border: greenyellow 2px solid;
+}
+
+/* Hero Image Container */
+    #hero-section {
+        position: relative;
+        /* text-align: center; */
+}
+
+    #hero-image {
+    background-image: url("../images/liberty-again.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+    #hero-text h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#ffffff;
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+  
+ 
+
+  /* Media query for small devices */
+@media screen and (max-width: 767px) {
+    #hero-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #hero-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    #hero-text h1 {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+
+  
+  /* Media query for large devices */
+  @media screen and (min-width: 768px) {
+    #hero-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+}
+  
+    #hero-image {
+      font-size: 48px;
+      margin-right: 20px;
+    }
 }
