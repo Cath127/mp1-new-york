@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&display=swap');
 
 /* Global site */
 * {
@@ -45,13 +45,12 @@ body {
 }
 
 /* Hero Image Container */
-    #hero-section {
+    .hero-section {
         position: relative;
-        /* text-align: center; */
 }
 
     #hero-image {
-    background-image: url("../images/liberty-again.jpg");
+    background-image: url("../images/liberty.jpg");
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -64,7 +63,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color:#ff6600;
-    font-size: 50px;
+    font-size: 75px;
+    font-weight: 500;
     letter-spacing: 2px;
     text-align: center;
   }
