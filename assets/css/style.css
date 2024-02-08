@@ -23,19 +23,19 @@ body {
 
 .navbar-brand {
     padding-left: 20px;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .navbar-nav {
-    padding-right: 30px;
+    padding-right: 15px;
     padding-left: 15px;
-    /* padding-left: 50px; */
     letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
+    align-items: center;
     /* word-spacing: 50px; */
 }
 
@@ -63,10 +63,15 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color:#ff6600;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 500;
     letter-spacing: 2px;
     text-align: center;
   }
   
  
+/* Intro Container */
+.aerial-view {
+    height: 50;
+    width: 50;
+}
