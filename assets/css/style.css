@@ -76,6 +76,7 @@ body {
 /* Headings */
     h2 {
     font-family: 'Poppins', sans-serif;
+    color: 003884;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -89,25 +90,27 @@ body {
     p {
     padding-bottom: 10px;
     padding-left: 10px;
+    padding-top:10px;
     text-align: center;
 }
 
 /* Intro Container */
-/* .first {
+.intro-container {
+    background-color: #ff6600;
     padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-} */
+}
 
-/* .intro {
-    display: inline-block;
-} */
-
-.aeriel-view-new {
+.aerial-view-new {
     background: url("../images/aerial-view-new.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    padding-left: 10px;
+    border: 3px solid greenyellow;
+    border-radius: 25px;
+}
+
+.intro-text {
+    text-align: center;
+    color: 003884;
 }
