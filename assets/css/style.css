@@ -121,7 +121,7 @@ body {
 /* Headings */
     h2 {
     font-family: 'Poppins', sans-serif;
-    color: 003884;
+    color:#ffffff;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -138,20 +138,21 @@ body {
     padding-left: 10px;
     padding-top:10px;
     text-align: center;
+    color:#ffffff;
 }
 
 /* Intro Container */
 .intro-container {
-    /* background-color: #ff6600; */
     /* padding-left: 10px; */
-    display: flex
+    display: fixed;
     justify-content: center;
     align-items: center;
+    background-color: #ff6600;
 }
 
 .aerial-view-new {
     background: url("../images/aerial-view-new.jpg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
@@ -169,6 +170,7 @@ body {
     flex-direction: row;
     justify-content: center; 
     align-items: center; 
+    color:#ffffff;
 }
 
 
