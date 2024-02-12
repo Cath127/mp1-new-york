@@ -131,6 +131,16 @@ body {
     padding-bottom: 20px;
 }
 
+    h3 {
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    }
+
 /* Paragraph */
     p {
     padding-bottom: 5px;
@@ -187,6 +197,10 @@ body {
 }
 
 /* Tips Container */
-/* .tips {
-    text-align: center;
-} */
+free-tips {
+    min-height: 200px;
+    border-style: 3px solid greenyellow;
+    border-radius: 25px;
+}
+
+
