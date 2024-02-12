@@ -167,8 +167,8 @@ body {
 .icon-container {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
-    align-items: center; 
+    /* justify-content: center; 
+    align-items: center;  */
     color:#ffffff;
 }
 
@@ -176,4 +176,17 @@ body {
     padding-top: 45px;
     padding-left: 20px;
     padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
 }
+
+.icons {
+    padding-bottom: 20px;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+/* Tips Container */
+/* .tips {
+    text-align: center;
+} */
