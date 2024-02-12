@@ -204,6 +204,11 @@ body {
 }
 
 /* Tips Container */
+.tips-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .free-tips {
     min-height: 200px;
     border-style: 3px solid greenyellow;
@@ -216,6 +221,11 @@ body {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    border: 3px solid white;
+    border-radius: 25px;
+    /* padding-left: 0;
+    padding-right: 0;
+    margin-right: 1px; */
 }
 
 .discounted-tips-icons {
@@ -224,6 +234,11 @@ body {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    border: 3px solid white;
+    border-radius: 25px;
+    /* padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 1px; */
 }
 
 .tips-icons {
