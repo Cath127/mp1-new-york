@@ -141,6 +141,7 @@ body {
     text-decoration-style: dashed;
     }
 
+
 /* Paragraph */
     p {
     padding-bottom: 5px;
@@ -197,10 +198,29 @@ body {
 }
 
 /* Tips Container */
-free-tips {
+.free-tips {
     min-height: 200px;
     border-style: 3px solid greenyellow;
     border-radius: 25px;
 }
 
+.free-tips-icons {
+    color: #ffffff;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
 
+.discounted-tips-icons {
+    color: #ffffff;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.tips-icons {
+    font-size: 16px
+    font-weight: 300;
+}
