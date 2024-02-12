@@ -55,13 +55,13 @@
 }
 
 body {
-    background-color: #ff6600;
-    color: #ffffff;
+    background-color: #ffac75;
+    color: #002561;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #003884;
+    background-color: #002561;
     padding: 10px; 
     position: fixed;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .navbar-nav a:hover {
-    background-color: #ff6600;
+    background-color: #ffac75;
     border: greenyellow 2px solid;
 }
 
@@ -109,7 +109,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:#ff6600;
+    color:#ffac75;
     font-size: 50px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -120,7 +120,7 @@ body {
 /* Headings */
     h2 {
     font-family: 'Poppins', sans-serif;
-    color:#ffffff !important;
+    color:#002561;
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
@@ -133,7 +133,7 @@ body {
 
     h3 {
     font-family: 'Poppins', sans-serif;
-    color:#ffffff !important;
+    color:#002561;
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
@@ -145,6 +145,7 @@ body {
     h6 {
     text-align: center;
     text-transform: uppercase;
+    color: #002561;
     }
 
 
@@ -154,7 +155,7 @@ body {
     padding-left: 10px;
     padding-top:10px;
     text-align: center;
-    color:#ffffff;
+    color:#002561;
 }
 
 /* Intro Container */
@@ -163,7 +164,7 @@ body {
     display: fixed;
     justify-content: center;
     align-items: center;
-    background-color: #ff6600;
+    background-color: #ffac75;
 }
 
 .aerial-view-new {
@@ -172,13 +173,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    border: 3px solid #003884;
+    border: 3px solid#002561;
     border-radius: 25px;
 }
 
 .intro-text {
     text-align: center;
-    color: 003884;
+    color: #002561;
 }
 
 .icon-container {
@@ -186,7 +187,7 @@ body {
     flex-direction: row;
     /* justify-content: center; 
     align-items: center;  */
-    color:#ffffff;
+    color:#002561;
 }
 
 .icon-captions {
@@ -199,7 +200,6 @@ body {
 
 .icons {
     padding-bottom: 20px;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -221,9 +221,10 @@ body {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    border: 3px solid #003884;
+    border: 3px solid#ffac75;
     border-radius: 25px;
     background-color: green;
+    color: #002561;
     /* padding-left: 0;
     padding-right: 0;
     margin-right: 1px; */
@@ -235,9 +236,10 @@ body {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    border: 3px solid #003884;
+    border: 3px solid #ffac75;
     border-radius: 25px;
     background-color: rgb(0, 85, 255);
+    color: #002561;
     /* padding-left: 0px;
     padding-right: 0px;
     margin-left: 1px; */
