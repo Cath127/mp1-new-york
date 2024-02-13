@@ -167,35 +167,34 @@
               <section class="container-fluid form-container">
                 <div class="row">
                   <div class="col">
-                    <h4>Do you have a free <br> or discounted tip?</h4>
-                    <h5>Fill in the form below to share your amazing tips</h5>
+                    <h5>Do you have a tip?</h5>
+                    <h5>Fill in the form below</h5>
 
                     <div class="centre-form">
-                      <form>
+                      <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
                         <div class="form-group">
-                          <label for="exampleFormControlInput1">Name</label>
-                          <input type="text" class="form-control" id="name" placeholder="Your name" required /> 
+                          <label for="fullname">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Your full name" required /> 
                         </div>
                         <div class="form-group">
-                          <label for="exampleFormControlInput2">Email address</label>
+                          <label for="emailaddress">Email address</label>
                           <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
                         </div>
                         <div class="form-group">
-                          <label for="exampleFormControlTextarea1">Your tip</label>
+                          <label for="yourtip">Your tip</label>
                           <textarea class="form-control" id="tip" rows="5"placeholder="Write your tip here" required /></textarea>
                         </div>
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="free-tips-form" value="option1">
                           <label class="form-check-label" for="inlineCheckbox1">Free Tip</label>
                         </div>
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="discounted-tips-form" value="option2">
                           <label class="form-check-label" for="inlineCheckbox2">Discounted Tip</label>
                         </div>
                         <div class="form-row text-center">
                             <button type="button" class="btn btn-success">Submit tip</button>
-                          </div>
-                        
+                          </div> 
                       </form>
 
                       
@@ -204,7 +203,7 @@
                   </div>
                 </div>
 
-    </div>
+              </div>
     <div class="section">
 
     </div>
