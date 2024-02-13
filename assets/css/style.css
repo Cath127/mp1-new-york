@@ -54,10 +54,6 @@
     }
 }
 
-body {
-    background-color: #ffac75;
-    color: #002561;
-}
 
 /* Navbar */
 .navbar {
@@ -69,7 +65,7 @@ body {
 .navbar-brand {
     font-family: 'Poppins', sans-serif;
     padding-left: 20px;
-    font-size: 40px;
+    font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
@@ -91,11 +87,11 @@ body {
 }
 
 /* Hero Image Container */
-    .hero-section {
+.hero-section {
         position: relative;
 }
 
-    #hero-image {
+#hero-image {
     background-image: url("../images/liberty.jpg");
     height: 60vh;
     background-size: cover;
@@ -103,22 +99,21 @@ body {
     background-repeat: no-repeat;
   }
   
-    #hero-text h1 {
+#hero-text h1 {
     font-family: 'Poppins', sans-serif;    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color:#ffac75;
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 500;
     letter-spacing: 2px;
     text-align: center;
   }
   
- 
 /* Headings */
-    h2 {
+h2 {
     font-family: 'Poppins', sans-serif;
     color:#002561;
     text-align: center;
@@ -131,7 +126,7 @@ body {
     padding-bottom: 20px;
 }
 
-    h3 {
+h3 {
     font-family: 'Poppins', sans-serif;
     color:#002561;
     text-align: center;
@@ -139,10 +134,10 @@ body {
     font-weight: 400;
     text-decoration: underline;
     text-decoration-style: dashed;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     }
 
-    h6 {
+h6 {
     text-align: center;
     text-transform: uppercase;
     color: #002561;
@@ -150,7 +145,7 @@ body {
 
 
 /* Paragraph */
-    p {
+.aerial-view-new p {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-top:10px;
@@ -158,12 +153,16 @@ body {
     color:#002561;
 }
 
+.free-tips-icons p,
+.discounted-tips-icons {
+    color:#002561;
+    text-align: center;
+    padding-top: -5px;
+}
+
 /* Intro Container */
 .intro-container {
-    /* padding-left: 10px; */
     display: fixed;
-    justify-content: center;
-    align-items: center;
     background-color: #ffac75;
 }
 
@@ -178,15 +177,13 @@ body {
 }
 
 .intro-text {
-    text-align: center;
     color: #002561;
 }
 
+/* Icon Container */
 .icon-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; 
-    align-items: center;  */
     color:#002561;
 }
 
@@ -201,18 +198,13 @@ body {
 .icons {
     padding-bottom: 20px;
     justify-content: center;
+    align-items: center;
 }
 
 /* Tips Container */
 .tips-container {
     display: flex;
     justify-content: space-between;
-}
-
-.free-tips {
-    min-height: 200px;
-    border-style: 3px solid #003884;
-    border-radius: 25px;
 }
 
 .free-tips-icons {
@@ -225,9 +217,6 @@ body {
     border-radius: 25px;
     background-color: #00eb00;
     color: #002561;
-    /* padding-left: 0;
-    padding-right: 0;
-    margin-right: 1px; */
 }
 
 .discounted-tips-icons {
@@ -240,12 +229,4 @@ body {
     border-radius: 25px;
     background-color: #94b8ff;
     color: #002561;
-    /* padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 1px; */
-}
-
-.tips-icons {
-    font-size: 16px;
-    font-weight: 300;
 }
