@@ -252,3 +252,44 @@ h6 {
     padding-bottom: 20px;
 }
 
+.centre-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    /* border: 3px solid #002561;
+    border-radius: 25px; */
+}
+
+/* Media Queries */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+   
+    }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .centre-form {
+        padding-top: 20px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 60%;
+    } 
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .centre-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+    }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
