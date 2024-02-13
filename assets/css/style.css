@@ -249,4 +249,6 @@ h6 {
 /* Form Container */
 .form-container {
     background-color: #ffac75;
+    padding-bottom: 20px;
 }
+
