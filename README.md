@@ -34,9 +34,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 
 * ### Wireframes
-  * ### Home Page Wireframe - 
-  * ### Tips Wireframe - 
-  * ### Competition Wireframe - 
+  ![Canva Wireframe](https://github.com/Cath127/mp1-new-york/assets/153606011/8aee31d7-c17b-48f5-894e-a1939b0d3347)
 
 ## Features
 
