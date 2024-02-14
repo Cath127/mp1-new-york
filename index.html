@@ -170,30 +170,31 @@
                     <h5>Do you have a tip?</h5>
                     <h5>Fill in the form below</h5>
 
-                    <div class="centre-form">
-                      <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                    <form>
+                        <div class="centre-form">
                         <div class="form-group">
                           <label for="fullname">Name</label>
-                          <input type="text" class="form-control" id="name" placeholder="Your full name" required /> 
+                          <input type="text" class="form-control" id="fullname" placeholder="Your full name" required /> 
                         </div>
                         <div class="form-group">
                           <label for="emailaddress">Email address</label>
-                          <input type="email" class="form-control" id="email" placeholder="name@example.com" required />
+                          <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required />
                         </div>
                         <div class="form-group">
                           <label for="yourtip">Your tip</label>
-                          <textarea class="form-control" id="tip" rows="5"placeholder="Write your tip here" required /></textarea>
+                          <textarea class="form-control" id="yourtip" rows="5"placeholder="Write your tip here" required /></textarea>
                         </div>
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="free-tips-form" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                           <label class="form-check-label" for="inlineCheckbox1">Free Tip</label>
                         </div>
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="checkbox" id="discounted-tips-form" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                           <label class="form-check-label" for="inlineCheckbox2">Discounted Tip</label>
                         </div>
                         <div class="form-row text-center">
-                            <button type="button" class="btn btn-success">Submit tip</button>
+                            <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#submitTip">
+                            Submit tip</button>
                           </div> 
                       </form>
 
@@ -203,51 +204,33 @@
 
               </div>
 
-              <section class="container-fluid carousel-container"
-              <div id="carousel" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/images/central-park.JPG" class="d-block w-100" alt="The fountain and boating lake">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Central Park</h5>
-                      <p>The infamous 843 acre park in the middle of Manhattan welcomes over 42 million visitors annually.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/grand-central.JPG" class="d-block w-100" alt="Inside Grand Central Station">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Grand Central Station</h5>
-                      <p>The largest train station in the world with 44 platforms and 67 tracks on two levels</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/staten-ferry.JPG" class="d-block w-100" alt="The orange Staten Island Ferry">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Staten Island Ferry</h5>
-                      <p>This 25 minutes boat ride carries nearly 70,000 people daily from Manhattan to Staten Island.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            </section>
+
+           
 
                 
                 
     <footer>
 
     </footer>
+
+    <div class="modal" tabindex="-1" id="submitTip">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Thank You</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Thanks for helping others with your useful tip.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <!-- Bootstrap and Font Awesome scripts-->
