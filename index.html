@@ -170,16 +170,17 @@
                     <h5>Do you have a tip?</h5>
                     <h5>Fill in the form below</h5>
 
-                    <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+
+                      <form class="other-tips" method="POST" target="_blank" action="https://formdump.codeinstitute.net/">
                         <div class="centre-form">
                         <div class="form-group">
-                          <form class=""
+                          
                           <label for="fullname">Name</label>
-                          <input type="text" name="name"  class="form-control" id="fullname" placeholder="Your full name" required /> 
+                          <input type="text" name="name" class="form-control" id="fullname" placeholder="Your full name" required /> 
                         </div>
                         <div class="form-group">
                           <label for="emailaddress">Email address</label>
-                          <input type="email" class="form-control" id="emailaddress" name="email" placeholder="name@example.com" required />
+                          <input type="email" class="form-control" id="emailaddress" placeholder="name@example.com" required />
                         </div>
                         <div class="form-group">
                           <label for="yourtip">Your tip</label>
@@ -194,8 +195,7 @@
                           <label class="form-check-label" for="inlineCheckbox2">Discounted Tip</label>
                         </div>
                         <div class="form-row text-center">
-                            <button type="submit" class="btn btn-success">
-                            Submit tip</button>
+                            <button type="submit" class="btn btn-success">Submit tip</button>
                           </div> 
                     </form>
 
@@ -206,29 +206,45 @@
               </div>  
              </section>
 
+        <div class="container-fluid gallery-container">
+          <div class="row g-3">
+            <h4>new york photos</h4>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                <img src="assets/images/central-park.jpg" alt="The fountain and boating lake in Central Park" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Central Park</h5>
+                  <p class="card-text">The infamous 843 acre park in the middle of Manhattan welcomes over 42 million visitors 
+                  annually.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                <img src="assets/images/brooklyn-bridge.jpg" alt="Brookyln Bridge" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Brooklyn Bridge</h5>
+                  <p class="card-text">The 1.8km bridge spans the East River between Manhattan and Brooklyn and was opened in 1883.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                <img src="assets/images/staten-ferry.jpg" alt="The orange Staten Island Ferry" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Staten Island Ferry</h5>
+                  <p class="card-text">This 25 minutes boat ride carries nearly 70,000 people daily from Manhattan to Staten Island.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
      
                 
     <footer>
 
     </footer>
-<!-- 
-             <div class="modal" tabindex="-1" id="submitTip">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title">Thank You</h5>
-                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                 </div>
-                  <div class="modal-body">
-                    <p>Thanks for helping others with your useful tip.</p>
-                  </div>
-                   <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success">Save changes</button>
-                  </div>
-                </div>
-              </div>
-            </div> -->
+
 
 
     <!-- Bootstrap and Font Awesome scripts-->

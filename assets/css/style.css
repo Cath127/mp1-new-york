@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Poppins:wght@400;500;600&display=swap');
 
-/* Global site */
+/* --------------------------------------------------- Global site */
 * {
     font-family: 'Lexend', sans-serif;
     margin: 0;
@@ -55,7 +55,7 @@
 }
 
 
-/* Navbar */
+/* --------------------------------------------------------------- Navbar */
 .navbar {
     background-color: #002561;
     padding: 10px; 
@@ -112,7 +112,7 @@
     text-align: center;
   }
   
-/* Headings */
+/* -----------------------------------------------------------------Headings */
 h2 {
     font-family: 'Poppins', sans-serif;
     color:#002561;
@@ -137,6 +137,14 @@ h3 {
     padding-bottom: 10px;
     }
 
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color:#002561;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
 h5 {
     font-family: 'Poppins', sans-serif;
     color:#002561;
@@ -152,8 +160,9 @@ h6 {
     }
 
 
-/* Paragraph */
+/* ------------------------------------------------------------------ Paragraph */
 .aerial-view-new p {
+    font-family: 'Lexend', sans-serif;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-top:10px;
@@ -163,12 +172,19 @@ h6 {
 
 .free-tips-icons p,
 .discounted-tips-icons {
+    font-family: 'Lexend', sans-serif;
     color:#002561;
     text-align: center;
     padding-top: -5px;
 }
 
-/* Intro Container */
+.card-body p {
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    color:#002561;
+}
+
+/* -------------------------------------------------------------------Intro Container */
 .intro-container {
     display: fixed;
     background-color: #ffac75;
@@ -188,7 +204,7 @@ h6 {
     color: #002561;
 }
 
-/* Icon Container */
+/* --------------------------------------------------------------------Icon Container */
 .icon-container {
     display: flex;
     flex-direction: row;
@@ -209,7 +225,7 @@ h6 {
     align-items: center;
 }
 
-/* Tips Container */
+/* -------------------------------------------------------------------- Tips Container */
 .tips-container {
     display: flex;
     justify-content: space-between;
@@ -239,7 +255,7 @@ h6 {
     color: #002561;
 }
 
-/* Form Container */
+/* -------------------------------------------------------------------- Form Container */
 .form-container {
     background-color: #ffac75;
     padding-bottom: 20px;
@@ -254,11 +270,13 @@ h6 {
 }
 
 
-/* Gallery Container */
+/* -------------------------------------------------------------------- Gallery Container */
+.gallery-container {
+    background-color: #ffac75;
+}
 
 
-
-/* Media Queries */
+/* ---------------------------------------------------------------------Media Queries */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
    
