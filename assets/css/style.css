@@ -136,6 +136,13 @@ h3 {
     padding-bottom: 10px;
     }
 
+ h4 {
+    font-family: 'Poppins', sans-serif;
+    color:#002561;
+    text-align: center;
+    text-transform: uppercase;
+ }   
+
 h5 {
     font-family: 'Poppins', sans-serif;
     color:#002561;
@@ -148,7 +155,8 @@ h6 {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: #002561;
+    font-weight: 600;
+    color: #fff;
     }
 
 
@@ -176,6 +184,10 @@ h6 {
     color:#002561;
 }
 
+.footer-container p {
+    text-align: center;
+    word-spacing: 2px;
+}
 /* -------------------------------------------------------------------Intro Container */
 .intro-container {
     display: fixed;
@@ -281,8 +293,12 @@ h6 {
 }
 
 
-
-
+/* -------------------------------------------------------------------- Footer Container */
+.footer-container {
+    background-color: #002561;
+    color: #fff;
+    min-height: 180px;
+}
 
 /* ---------------------------------------------------------------------Media Queries */
 /* Small devices (landscape phones, 576px and up) */
