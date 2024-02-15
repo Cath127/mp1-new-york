@@ -24,10 +24,10 @@
                     <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house";></i>&nbsp;Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-comment"></i>&nbsp;Tips</a>
+                    <a class="nav-link" href="#tips"><i class="fa-solid fa-comment"></i>&nbsp;Tips</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-camera"></i>&nbsp;Gallery</a>
+                    <a class="nav-link" href="#gallery"><i class="fa-solid fa-camera"></i>&nbsp;Gallery</a>
                   </li>
                 </ul>
               </div>
@@ -61,7 +61,7 @@
                   for budget-friendly adventures and exclusive deals that make your time in the Big Apple memorable
                   without draining your wallet.
                 </p>
-              <div class=" d-none d-md-block">
+              <div class="d-none d-md-block">
                 <p>  
                   Discover a plethora of events, activities, and attractions as well as insider tips on snagging discounts
                   for popular attractions, dining, and entertainment. From outdoor festivals to art exhibitions, hidden parks
@@ -103,7 +103,8 @@
               </div>
 
     </div>
-             <div class="container-fluid tips-container">
+            <section id="tips">
+             <div class="container-fluid tips-container"></div>
                 <div class="row">
                   <h2>new york tips</h2>
                     <div class="col-md-6 free-tips-icons">
@@ -129,7 +130,7 @@
                         </p>
                         <h5>Beer Tour&nbsp;<i class="fa-solid fa-beer-mug-empty"></i></h5>
                         <p>
-                          Brookyln Brewery offers free tours every Sunday hourly from 1-6pm.  No tasting is included
+                          Brookyln Brewery has tours every Sunday from 1-6pm.  No tasting included
                           but you can buy a drink in the bar.  
                         </p>
                     </div>
@@ -148,7 +149,7 @@
                         <h5>Museums&nbsp;<i class="fa-solid fa-building-columns"></i></h5>
                         <p>
                           Many museums offer free or pay what you wish entry weekly (often they are closed on a Monday).
-                          Look at museum websites for more details.    
+                          Look at individual museum websites for more details.    
                         </p>
                         <h5>Food&nbsp;<i class="fa-solid fa-pizza-slice"></i></h5>
                         <p>
@@ -156,15 +157,17 @@
                         </p>
                         <h5>Drinks&nbsp;<i class="fa-solid fa-martini-glass-citrus"></i></h5>
                         <p>
-                          Many New York bars off happy hours with big savings.
+                          Many New York bars off happy hours with big savings. Who doesn't love a cheaper drink?
                         </p>
                     </div>
                     </div>
 
 
                 </div>
-
-    </div>
+            
+          </div>
+        </section>
+    
               <section class="container-fluid form-container">
                 <div class="row">
                   <div class="col">
@@ -205,12 +208,13 @@
 
               </div>  
              </section>
-
-        <div class="container-fluid gallery-container py-5">
-         <h2>new york photos</h2>
+        
+        <section id="gallery">
+        <div class="container-fluid gallery-container">
+         <h2 class="new-york-photos">new york photos</h2>
          
          <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-5">
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-3">
             <div class="card">
               <img src="assets/images/central-park.jpg" class="card-img-top" alt="The fountain and boating lake in Central Park">
               <div class="card-body">
@@ -219,7 +223,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-5">
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-3">
             <div class="card">
               <img src="assets/images/grand-central.JPG" class="card-img-top" alt="Inside Grand Central Train Station">
               <div class="card-body">
@@ -228,7 +232,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-5">
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-3">
             <div class="card">
               <img src="assets/images/times-square.JPG" class="card-img-top" alt="Times Square at Night">
               <div class="card-body">
@@ -237,7 +241,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-5">
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-3 d-none d-sm-block"">
             <div class="card">
               <img src="assets/images/brooklyn-bridge.jpg" class="card-img-top" alt="Brooklyn Bridge">
               <div class="card-body">
@@ -246,7 +250,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-5">
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-3 d-none d-lg-block"">
             <div class="card">
               <img src="assets/images/staten-ferry.jpg" class="card-img-top" alt="The orange Staten Island Ferry">
               <div class="card-body">
@@ -255,17 +259,18 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-5">
+          <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-around mb-3 d-none d-lg-block"">
             <div class="card">
               <img src="assets/images/outdoor-cinema.JPG" class="card-img-top" alt="An outdoor cinema in a Manhattan Park">
               <div class="card-body">
                 <h4 class="card-title">Outdoor Cinema</h4>
-                <p class="card-text">From May to August enjoy an outdoor cinema experience at many of New York’s parks.</p>
+                <p class="card-text">From May to August enjoy a unique outdoor cinema experience at many of New York’s parks.</p>
               </div>
             </div>
           </div>
           </div>
          </div>
+        </section>
                 
         <footer class="container-fluid footer-container">
             <div class="row">

@@ -119,8 +119,8 @@ h2 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 500;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-decoration: underline;
     text-decoration-style: dashed;
 }
@@ -132,7 +132,7 @@ h3 {
     text-transform: uppercase;
     font-weight: 400;
     text-decoration: underline;
-    text-decoration-style: dashed;
+    text-decoration-style: solid;
     padding-bottom: 10px;
     }
 
@@ -148,7 +148,7 @@ h5 {
     color:#002561;
     text-align: center;
     text-transform: uppercase;
-    padding-top:60px;
+    padding-top:10px;
 }
 
 h6 {
@@ -175,7 +175,7 @@ h6 {
     font-family: 'Lexend', sans-serif;
     color:#002561;
     text-align: center;
-    padding-top: -5px;
+    /* padding-top: -5px; */
 }
 
 .card-body p {
@@ -255,7 +255,6 @@ h6 {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 20px;
     border: 3px solid #ffac75;
     border-radius: 25px;
     background-color: #94b8ff;
@@ -265,7 +264,7 @@ h6 {
 /* -------------------------------------------------------------------- Form Container */
 .form-container {
     background-color: #ffac75;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .centre-form {
@@ -284,7 +283,7 @@ h6 {
 
 .card-img-top {
     border-radius: 50px;
-    padding:20px;
+    padding: 20px;
 }
 
 .card {
@@ -297,7 +296,7 @@ h6 {
 .footer-container {
     background-color: #002561;
     color: #fff;
-    min-height: 80px;
+    min-height: 60px;
 }
 
 .social-links li {
@@ -308,7 +307,7 @@ h6 {
 /* ---------------------------------------------------------------------Media Queries */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-   
+    
     }
 
 /* Medium devices (tablets, 768px and up) */
@@ -363,6 +362,11 @@ h6 {
     .social-links li {
         display: inline-block;
         padding-left: 80px;
+        font-size: 1.5rem;
+    }
+
+    .thrifty-email {
+        font-size: 1.5rem;
     }
 
 /* X-Large devices (large desktops, 1200px and up) */
