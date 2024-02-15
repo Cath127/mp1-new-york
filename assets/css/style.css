@@ -194,6 +194,8 @@ h6 {
 
 .intro-text {
     color: #002561;
+    padding-right: 10px;
+    text-align: center;
 }
 
 /* --------------------------------------------------------------------Icon Container */
@@ -255,11 +257,11 @@ h6 {
 }
 
 .centre-form {
-    padding-top: 10px;
+    padding: 20px;
     margin: 0 auto;
     max-width: 70%;
-    /* border: 3px solid #002561;
-    border-radius: 25px; */
+    border: 3px solid #002561;
+    border-radius: 25px;
 }
 
 
@@ -278,13 +280,6 @@ h6 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card-title {
-   
-}
-
-.card-text {
-    padding-top: -50px;
-}
 
 
 
@@ -345,11 +340,10 @@ h6 {
         width:100vw;
     }
     }
-}
+
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 
 }
-
 
 }
