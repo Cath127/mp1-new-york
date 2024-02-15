@@ -229,7 +229,7 @@ h6 {
 .icons {
     padding-bottom: 20px;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 /* -------------------------------------------------------------------- Tips Container */
@@ -297,7 +297,12 @@ h6 {
 .footer-container {
     background-color: #002561;
     color: #fff;
-    min-height: 180px;
+    min-height: 80px;
+}
+
+.social-links li {
+    display: inline-block;
+    padding-left: 20px;
 }
 
 /* ---------------------------------------------------------------------Media Queries */
@@ -328,6 +333,11 @@ h6 {
         text-align: center;
       }
 
+      .social-links li {
+        display: inline-block;
+        padding-left: 50px;
+    }
+
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .centre-form {
@@ -350,10 +360,21 @@ h6 {
         text-align: center;
       }
 
+    .social-links li {
+        display: inline-block;
+        padding-left: 80px;
+    }
+
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .icons {
-        width:100vw;
+    .social-links li {
+        display: inline-block;
+        padding-left: 130px;
+        font-size: 2rem;
+    }
+
+    .thrifty-email {
+        font-size: 1.5rem;
     }
     }
 
@@ -362,4 +383,3 @@ h6 {
 
 }
 
-}
