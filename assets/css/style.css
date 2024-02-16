@@ -58,8 +58,7 @@
 /* --------------------------------------------------------------- Navbar */
 .navbar {
     background-color: #002561;
-    padding: 10px; 
-    position: fixed;
+    padding-top: 56px;
 }
 
 .navbar-brand {
@@ -353,7 +352,7 @@ h6 {
         left: 50%;
         transform: translate(-50%, -50%);
         color:#ffac75;
-        font-size: 5rem;
+        font-size: 4rem;
         font-weight: 500;
         letter-spacing: 2px;
         text-align: center;
@@ -371,6 +370,19 @@ h6 {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    #hero-text h1 {
+        font-family: 'Poppins', sans-serif;    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:#ffac75;
+        font-size: 5rem;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
     .social-links li {
         display: inline-block;
         padding-left: 130px;
@@ -384,6 +396,18 @@ h6 {
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+    #hero-text h1 {
+        font-family: 'Poppins', sans-serif;    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:#ffac75;
+        font-size: 5.5rem;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-align: center;
+      }
 
 }
 
