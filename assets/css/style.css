@@ -242,7 +242,6 @@ h6 {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 20px;
     border: 3px solid #ffac75;
     border-radius: 25px;
     background-color: #98f698;
@@ -411,3 +410,6 @@ h6 {
 
 }
 
+.icon-container {
+    justify-content: center;
+}
