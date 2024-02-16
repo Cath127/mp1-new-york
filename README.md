@@ -48,7 +48,15 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
    * ### [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
    
   ### Frameworks, Libraries and Programs Used
-   *
+   * ### [Balsamic](https://balsamiq.com/) was used to create wireframes.
+   * ### [VS Code](https://code.visualstudio.com/) was used as a code editor.
+   * ### Git was used for version control.
+   * ### [Github](https://github.com/) was used to store the code for the website.
+   * ### [Bootstrap](https://getbootstrap.com/) was used to create the framework of the website.  Code for the navigation bar, buttons, forms and cards were used and modified. Additional CSS styling was implimented in style.css.
+   * ### [Google Fonts](https://fonts.google.com/) was used to import fonts into the website.
+   * ### [Font Awesome](https://fontawesome.com/) was used to add icons for aesthetic purposes.
+   * ### Google Development Tools was used to troubleshoot and test features, solve issues with responsiveness and styling.
+
 
 ## Testing 
  

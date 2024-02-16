@@ -190,7 +190,15 @@ h6 {
 
 /* ------------------------------------------------------------------ Buttons */
 #tips-buttons {
-    background-color: #8B12FC;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#tips-buttons:hover {
+    background-color: yellow;
+    border: greenyellow 2px solid;
 }
 
 
@@ -415,8 +423,8 @@ h6 {
         text-align: center;
       }
 
-}
 
 .icon-container {
     justify-content: center;
+}
 }
