@@ -133,6 +133,7 @@ h3 {
     text-decoration: underline;
     text-decoration-style: solid;
     padding-bottom: 10px;
+    color:#002561 !important;
     }
 
  h4 {
@@ -146,6 +147,7 @@ h5 {
     text-align: center;
     text-transform: uppercase;
     padding-top:10px;
+    color: #002561 !important;
 }
 
 h6 {
@@ -153,7 +155,7 @@ h6 {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    color: #ffffff !important;
+    color: #fff !important;
     }
 
 /* ------------------------------------------------------------------ Paragraph */
@@ -165,8 +167,9 @@ h6 {
 }
 
 .free-tips-icons p,
-.discounted-tips-icons {
+.discounted-tips-icons p {
     text-align: center;
+    color: #002561;
 }
 
 .card-body p {
@@ -247,7 +250,7 @@ h6 {
     border: 3px solid #ffac75;
     border-radius: 25px;
     background-color: #98f698;
-   
+    padding-right: 10px;
 }
 
 .discounted-tips-icons {
@@ -302,6 +305,10 @@ h6 {
 /* ---------------------------------------------------------------------Media Queries */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+.social-links li {
+        vertical-align: middle;
+        padding-left: 20px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -314,11 +321,6 @@ h6 {
 
 #hero-text h1 {
     font-size: 4rem;
-}
-
-.social-links li {
-    display: inline-block;
-    padding-left: 50px;
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -334,6 +336,7 @@ h6 {
 }
 
 .social-links li {
+    display: inline;
     padding-left: 80px;
     font-size: 1.5rem;
 }
