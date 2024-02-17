@@ -132,7 +132,7 @@ h3 {
     font-weight: 400;
     text-decoration: underline;
     text-decoration-style: solid;
-    padding-bottom: 10px;
+    padding-top: 20px;
     color:#002561 !important;
     }
 
@@ -184,6 +184,8 @@ h6 {
 
 /* ------------------------------------------------------------------ Buttons */
 #tips-buttons {
+    color: #002561;
+    font-family: 'Lexend', sans-serif;
     font-size: medium;
     padding: 10px;
     text-align: center;
@@ -212,6 +214,7 @@ h6 {
 
 .intro-text {
     padding-right: 10px;
+    padding-top: 10px;
     text-align: center;
 }
 
@@ -251,6 +254,7 @@ h6 {
     border-radius: 25px;
     background-color: #98f698;
     padding-right: 10px;
+    margin-bottom: 30px;
 }
 
 .discounted-tips-icons {
@@ -299,7 +303,7 @@ h6 {
 
 .social-links li {
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 /* ---------------------------------------------------------------------Media Queries */
@@ -320,7 +324,7 @@ h6 {
 } 
 
 #hero-text h1 {
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
  /* Large devices (desktops, 992px and up) */
