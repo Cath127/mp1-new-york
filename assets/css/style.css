@@ -156,6 +156,7 @@ h6 {
     text-transform: uppercase;
     font-weight: 600;
     color: #fff !important;
+    padding-top: 10px;
     }
 
 /* ------------------------------------------------------------------ Paragraph */
@@ -163,7 +164,6 @@ h6 {
     padding-bottom: 5px;
     padding-top:10px;
     text-align: center;
-    
 }
 
 .free-tips-icons p,
@@ -255,8 +255,6 @@ h6 {
     border: 3px solid #ffac75;
     border-radius: 25px;
     background-color: #98f698;
-    padding-right: 10px;
-    margin-bottom: 30px;
 }
 
 .discounted-tips-icons {
@@ -284,7 +282,9 @@ h6 {
 
 
 /* -------------------------------------------------------------------- Gallery Container */
-.gallery-container 
+.gallery-container {
+    padding-bottom: 30px;
+}
 
 .card-img-top {
     border-radius: 50px;
@@ -311,6 +311,10 @@ h6 {
 /* ---------------------------------------------------------------------Media Queries */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+.free-tips-icons {
+    border-bottom: 20px;
+}
+
 .social-links li {
         vertical-align: middle;
         padding-left: 20px;
@@ -319,6 +323,16 @@ h6 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h5 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 .centre-form {
     padding-top: 20px;
     min-height: 240px;
@@ -331,6 +345,23 @@ h6 {
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h5 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 1.5rem;
+}
+
+.free-tips-icons p,
+.discounted-tips-icons p {
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
 .centre-form {
     padding-top: 30px;
     min-height: 240px;
@@ -358,6 +389,24 @@ h6 {
     font-size: 5rem;
 }
 
+.intro-text {
+    font-size: 1.5rem;
+}
+
+.icon-captions {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.free-tips-icons p,
+.discounted-tips-icons p {
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
 .social-links li {
     display: inline-block;
     padding-left: 130px;
@@ -375,7 +424,24 @@ h6 {
     font-size: 5.5rem;
 }
 
+.intro-text {
+    font-size: 1.5rem;
+}
+
 .icon-container {
     justify-content: center;
+}
+
+.icon-captions {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+
+.thrifty-email {
+    font-size: 2rem;
 }
 }
