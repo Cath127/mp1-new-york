@@ -7,7 +7,7 @@ body {
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    background-color: #ffac75;
+    background-color: #ffac75 !important;
     color:#002561;
 }
 
@@ -159,9 +159,9 @@ h6 {
 /* ------------------------------------------------------------------ Paragraph */
 .aerial-view-new p {
     padding-bottom: 5px;
-    padding-left: 10px;
     padding-top:10px;
     text-align: center;
+    
 }
 
 .free-tips-icons p,
