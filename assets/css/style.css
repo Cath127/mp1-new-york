@@ -2,13 +2,13 @@
 
 /* --------------------------------------------------- Global site */
 body {
-    font-family: 'Lexend', sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: #ffac75 !important;
     border: 0;
     box-sizing: border-box;
-    background-color: #ffac75 !important;
     color:#002561;
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;    
 }
 
 /* BOOTSTRAP 5 BREAKPOINTS
@@ -65,21 +65,20 @@ body {
 
 .navbar-brand {
     font-family: 'Poppins', sans-serif;
-    padding-left: 20px;
     font-size: 2rem;
-    letter-spacing: 2px;
     font-weight: 600;
+    letter-spacing: 2px;  
+    padding-left: 20px;
     text-transform: uppercase;
 }
 
 .navbar-nav {
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 2px;
     padding-right: 15px;
     padding-left: 15px;
-    letter-spacing: 2px;
-    font-weight: 600;
     text-transform: uppercase;
-    align-items: center;
-    /* word-spacing: 50px; */
 }
 
 .navbar-nav a:hover {
@@ -89,51 +88,51 @@ body {
 
 /* -------------------------------------------------------------------Hero Image Container */
 .hero-section {
-        position: relative;
+    position: relative;
 }
 
 #hero-image {
     background-image: url("../images/liberty.jpg");
-    height: 60vh;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
   }
   
 #hero-text h1 {
-    font-family: 'Poppins', sans-serif;    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color:#ffac75;
+    font-family: 'Poppins', sans-serif;   
     font-size: 3.5rem;
     font-weight: 500;
+    left: 50%; 
     letter-spacing: 2px;
+    position: absolute;
     text-align: center;
+    top: 50%; 
+    transform: translate(-50%, -50%); 
   }
   
 /* -----------------------------------------------------------------Headings */
 h2 {
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
     font-weight: 500;
-    padding-top: 20px;
     padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
     text-decoration: underline;
     text-decoration-style: dashed;
+    text-transform: uppercase;    
 }
 
 h3 {
+    color:#002561 !important;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
     font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
     text-decoration: underline;
     text-decoration-style: solid;
-    padding-top: 20px;
-    color:#002561 !important;
+    text-transform: uppercase;
     }
 
  h4 {
@@ -143,20 +142,20 @@ h3 {
  }   
 
 h5 {
+    color: #002561 !important;
     font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
-    padding-top:10px;
-    color: #002561 !important;
 }
 
 h6 {
+    color: #fff !important;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
-    color: #fff !important;
-    padding-top: 10px;
     }
 
 /* ------------------------------------------------------------------ Paragraph */
@@ -168,8 +167,8 @@ h6 {
 
 .free-tips-icons p,
 .discounted-tips-icons p {
-    text-align: center;
     color: #002561;
+    text-align: center;
 }
 
 .card-body p {
@@ -177,19 +176,19 @@ h6 {
 }
 
 .footer-container p {
+    color: #fff;
     text-align: center;
     word-spacing: 2px;
-    color: #fff;
 }
 
 /* ------------------------------------------------------------------ Buttons */
 #tips-buttons {
+    border-radius: 50%;
     color: #002561;
     font-family: 'Lexend', sans-serif;
     font-size: medium;
     padding: 10px;
-    text-align: center;
-    border-radius: 50%;
+    text-align: center;  
 }
 
 #tips-buttons:hover {
@@ -209,9 +208,9 @@ h6 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200px;
     border: 3px solid  #ffac75;
     border-radius: 25px;
+    min-height: 200px;
 }
 
 .intro-text {
@@ -227,18 +226,18 @@ h6 {
 }
 
 .icon-captions {
+    align-items: center;
+    justify-content: center;
     padding-top: 45px;
     padding-left: 20px;
     padding-bottom: 50px;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 
 .icons {
-    padding-bottom: 20px;
-    justify-content: center;
     align-items: center; 
+    justify-content: center;
+    padding-bottom: 20px;    
 }
 
 /* -------------------------------------------------------------------- Tips Container */
@@ -248,23 +247,23 @@ h6 {
 }
 
 .free-tips-icons {
-    color: #ffffff;
-    float: right;
-    line-height: 20px;
-    clear: both;
+    background-color: #98f698;
     border: 3px solid #ffac75;
     border-radius: 25px;
-    background-color: #98f698;
+    clear: both;
+    color: #ffffff;
+    float: right;
+    line-height: 20px;    
 }
 
 .discounted-tips-icons {
-    color: #ffffff;
-    float: left;
-    line-height: 20px;
-    clear: both;
+    background-color: #94b8ff;
     border: 3px solid #ffac75;
     border-radius: 25px;
-    background-color: #94b8ff;
+    clear: both;
+    color: #ffffff;
+    float: left;
+    line-height: 20px;  
 }
 
 /* -------------------------------------------------------------------- Form Container */
@@ -273,11 +272,11 @@ h6 {
 }
 
 .centre-form {
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 70%;
     border: 3px solid #002561;
     border-radius: 25px;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 20px;
 }
 
 
@@ -295,7 +294,6 @@ h6 {
     border-radius: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
 
 /* -------------------------------------------------------------------- Footer Container */
 .footer-container {
@@ -315,17 +313,17 @@ h6 {
     border-bottom: 20px;
 }
 
-.social-links li {
-        vertical-align: middle;
-        padding-left: 20px;
-    }
+.social-links li {   
+    padding-left: 20px;
+    vertical-align: middle;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 h2 {
-    padding-top: 30px;
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 h5 {
@@ -334,9 +332,9 @@ h5 {
 }
 
 .centre-form {
-    padding-top: 20px;
     min-height: 240px;
     max-width: 70%;
+    padding-bottom: 30px;
 } 
 
 #hero-text h1 {
@@ -346,14 +344,14 @@ h5 {
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 h2 {
-    padding-top: 50px;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 h5 {
+    font-size: 1.5rem;
     padding-bottom: 50px;
     padding-top: 50px;
-    font-size: 1.5rem;
 }
 
 .free-tips-icons p,
@@ -363,9 +361,9 @@ h5 {
 }
 
 .centre-form {
-    padding-top: 30px;
-    min-height: 240px;
     max-width: 80%;
+    min-height: 240px;
+    padding-top: 30px;
 }
 
 #hero-text h1 {
@@ -374,8 +372,8 @@ h5 {
 
 .social-links li {
     display: inline;
-    padding-left: 80px;
     font-size: 1.5rem;
+    padding-left: 80px;
 }
 
 .thrifty-email {
@@ -409,8 +407,9 @@ h5 {
 
 .social-links li {
     display: inline-block;
-    padding-left: 130px;
     font-size: 2rem;
+    padding-left: 130px;
+    
 }
 
 .thrifty-email {
