@@ -196,8 +196,8 @@ h6 {
 
 /* -------------------------------------------------------------------- Tips Container */
 .tips-container {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .free-tips-icons {
@@ -206,7 +206,8 @@ h6 {
     border-radius: 25px;
     clear: both;
     color: #ffffff;
-    float: right;
+    display: flex;
+    flex-direction: column;
     line-height: 20px;   
 }
 
@@ -216,11 +217,14 @@ h6 {
     border-radius: 25px;
     clear: both;
     color: #ffffff;
-    float: left;
+    display: flex;
+    flex-direction: column;
     line-height: 20px;  
 }
 
-
+#tips-buttons {
+    color:aqua;
+}
 
 /* -------------------------------------------------------------------- Form Container */
 .form-container {
@@ -289,6 +293,11 @@ h2 {
 h5 {
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+.free-tips-icons 
+.discounted-tips-icons {
+    margin: 0;
 }
 
 .centre-form {
