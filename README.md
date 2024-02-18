@@ -37,6 +37,36 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   ![Canva Wireframe](https://github.com/Cath127/mp1-new-york/assets/153606011/8aee31d7-c17b-48f5-894e-a1939b0d3347)
 
 ## Features
+  The website a single scrolling page consisting of three sections: Home, Tips and Gallery.
+
+  * ### Navigation bar
+    * ### 
+      The navigation bar is at the top of the website to navigate to the different sections.
+
+    * ### 
+      On larger screens the title is at the left of the navbar and the navigation links are on the right as HOME | TIPS | GALLERY. On smaller screens the title is on the left and a hamburger button on the right. When expanded the section titles have a font awesome icon and are in the middle of the screen.  When a title is clicked the background turns the orange colour of the website background with a green border around it.
+
+  Desktop Navbar ![navbar desktop -fotor-2024021815482](https://github.com/Cath127/mp1-new-york/assets/153606011/0bf9b1cc-0b51-4433-b877-688339c0dd5e)
+  Mobile Navbar 
+
+  ![mobile navbar](https://github.com/Cath127/mp1-new-york/assets/153606011/277446c5-7b59-4ab2-9a7a-0cc992dfe13f)
+
+  * ### Home Section
+    * ###
+      The home section consists of a hero image, an image and introduction text and useful website icons.
+
+    * ###
+      The Statue of Libery is used as the hero image.  This is an instantly recognisable monument so users know exactly what the website is about without having to read anything.  The hero text is the same orange colour as the website background. Both are fully responsive.
+
+    * ###
+      The top of the home section has an aerial image of New York on the left and two paragraphs of introductory text on the right.  For a better user experience on a mobile device the image is above the text and only one paragraph is visible.  On a medium device
+      or larger the image and text sit side by side.
+
+    * ###
+      The bottom part of the home section has four Font Awesome icons which are linked to useful websites which open on a new page.  On a mobile device the icons are in a vertical line, a medium device icons are 2x2 and on large devices are positioned in a horizontal line.
+
+
+ 
 
 ## Accessibility
  
@@ -98,3 +128,6 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 ### Acknowledgements            
 
 
+
+
+[def]: https://github.com/Cath127/mp1-new-york/assets/153606011/42edf02f-9504-4eed-90b8-d46e37a744d8
