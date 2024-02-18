@@ -56,7 +56,7 @@ body {
 #hero-text h1 {
     color:#ffac75;
     font-family: 'Poppins', sans-serif;   
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 500;
     left: 50%; 
     letter-spacing: 2px;
@@ -207,7 +207,7 @@ h6 {
     clear: both;
     color: #ffffff;
     float: right;
-    line-height: 20px;    
+    line-height: 20px;   
 }
 
 .discounted-tips-icons {
@@ -219,6 +219,8 @@ h6 {
     float: left;
     line-height: 20px;  
 }
+
+
 
 /* -------------------------------------------------------------------- Form Container */
 .form-container {
