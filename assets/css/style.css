@@ -60,6 +60,7 @@ body {
     font-weight: 500;
     left: 50%; 
     letter-spacing: 2px;
+    padding-top: 20px;
     position: absolute;
     text-align: center;
     top: 50%; 
@@ -119,8 +120,8 @@ h6 {
     text-align: center;
 }
 
-.free-tips-icons p,
-.discounted-tips-icons p {
+.free-tips-box p,
+.discounted-tips-box p {
     color: #002561;
     text-align: center;
 }
@@ -200,7 +201,7 @@ h6 {
     flex-direction: column; */
 }
 
-.free-tips-icons {
+.free-tips-box {
     background-color: #98f698;
     border: 3px solid #ffac75;
     border-radius: 25px;
@@ -211,7 +212,7 @@ h6 {
     line-height: 20px;   
 }
 
-.discounted-tips-icons {
+.discounted-tips-box {
     background-color: #94b8ff;
     border: 3px solid #ffac75;
     border-radius: 25px;
@@ -288,16 +289,6 @@ h6 {
 h2 {
     padding-bottom: 30px;
     padding-top: 30px;
-}
-
-h5 {
-    padding-bottom: 30px;
-    padding-top: 30px;
-}
-
-.free-tips-icons 
-.discounted-tips-icons {
-    margin: 0;
 }
 
 .centre-form {
