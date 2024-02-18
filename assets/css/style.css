@@ -209,7 +209,7 @@ h6 {
     color: #ffffff;
     display: flex;
     flex-direction: column;
-    line-height: 20px;   
+    line-height: 20px;  
 }
 
 .discounted-tips-box {
@@ -263,12 +263,11 @@ h6 {
 }
 
 .thrifty-email {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .social-links li {
     display: inline-block;
-    padding-left: 10px;
 }
 
 /* ---------------------------------------------------------------------Media Queries */
@@ -279,7 +278,7 @@ h6 {
 }
 
 .social-links li {   
-    padding-left: 40px;
+    padding-left: 30px;
     vertical-align: middle;
 }
 }
@@ -313,12 +312,6 @@ h5 {
     padding-bottom: 50px;
     padding-top: 50px;
 }
-
-/* .free-tips-icons p,
-.discounted-tips-icons p {
-    font-size: 1.5rem;
-    line-height: 150%;
-} */
 
 .centre-form {
     max-width: 80%;
@@ -358,12 +351,6 @@ h5 {
     font-size: 1.5rem;
 }
 
-/* .free-tips-icons p,
-.discounted-tips-icons p {
-    font-size: 1.5rem;
-    line-height: 150%;
-} */
-
 .social-links li {
     font-size: 1.5rem;
     padding-left: 70px;
@@ -396,7 +383,6 @@ h5 {
 h5 {
     font-size: 1.5rem;
 }
-
 
 .thrifty-email {
     font-size: 2rem;
