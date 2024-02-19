@@ -141,19 +141,10 @@ h6 {
 }
 
 /* ------------------------------------------------------------------ Buttons */
-#tips-buttons {
-    border-radius: 50%;
-    color: #002561;
-    font-family: 'Lexend', sans-serif;
-    font-size: medium;
-    padding: 10px;
-    text-align: center;  
-}
-
-
-/* -------------------------------------------------------------------Intro Container */
-.intro-container {
-    padding-left: 10px;
+.activity-header a.btn {
+    background-color: yellow;
+    border: #002561 solid 2px;
+    border-radius: 25%;
     padding-right: 10px;
 }
 
@@ -217,8 +208,14 @@ h6 {
     line-height: 20px;  
 }
 
-#tips-buttons {
-    color:aqua;
+.activity-header h5,
+.activity-header a.btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.activity-header h5 {
+    margin-right: 5px;
 }
 
 /* -------------------------------------------------------------------- Form Container */
