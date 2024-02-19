@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
+/* --------------------------------------------------- Global site */
+body {
+    background-color: #ffac75 !important;
+    border: 0;
+    box-sizing: border-box;
+    color:#002561;
+    font-family: 'Lexend', sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* --------------------------------------------------------------- Navbar */
+.navbar {
+    background-color: #002561;
+    padding-top: 56px;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;  
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-nav {
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.navbar-nav a:hover {
+    background-color: #ffac75;
+    border: greenyellow 2px solid;
+}
+
+/* -------------------------------------------------------------------Hero Image Container */
+.hero-section {
+    position: relative;
+}
+
+#hero-image {
+    background-image: url("../images/liberty.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+  }
+  
+#hero-text h1 {
+    color:#ffac75;
+    font-family: 'Poppins', sans-serif;   
+    font-size: 3rem;
+    font-weight: 500;
+    left: 50%; 
+    letter-spacing: 2px;
+    padding-top: 20px;
+    position: absolute;
+    text-align: center;
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  
+/* -----------------------------------------------------------------Headings */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-transform: uppercase;    
+}
+
+h3 {
+    color:#002561 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+    }
+
+ h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+ }   
+
+h5 {
+    color: #002561 !important;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+/* ------------------------------------------------------------------ Paragraph */
+.aerial-view-new p {
+    padding-bottom: 5px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.free-tips-box p,
+.discounted-tips-box p {
+    color: #002561;
+    text-align: center;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+.footer-container p {
+    color: #fff;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+/* ------------------------------------------------------------------ Buttons */
+#tips-buttons {
+    border-radius: 50%;
+    color: #002561;
+    font-family: 'Lexend', sans-serif;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;  
+}
+
+
+/* -------------------------------------------------------------------Intro Container */
+.intro-container {
+    display: fixed;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.aerial-view-new {
+    background: url("../images/aerial-view-new.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid  #ffac75;
+    border-radius: 25px;
+    min-height: 200px;
+}
+
+.intro-text {
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* --------------------------------------------------------------------Icon Container */
+.icon-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-captions {
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.icons {
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 20px;    
+}
+
+/* -------------------------------------------------------------------- Tips Container */
+.tips-container {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.free-tips-box {
+    background-color: #98f698;
+    border: 3px solid #ffac75;
+    border-radius: 25px;
+    clear: both;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;  
+}
+
+.discounted-tips-box {
+    background-color: #94b8ff;
+    border: 3px solid #ffac75;
+    border-radius: 25px;
+    clear: both;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;  
+}
+
+#tips-buttons {
+    color:aqua;
+}
+
+/* -------------------------------------------------------------------- Form Container */
+.form-container {
+    padding-top: 20px;
+}
+
+.centre-form {
+    border: 3px solid #002561;
+    border-radius: 25px;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 20px;
+}
+
+
+/* -------------------------------------------------------------------- Gallery Container */
+.gallery-container {
+    padding-bottom: 30px;
+}
+
+.card-img-top {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* -------------------------------------------------------------------- Footer Container */
+.footer-container {
+    background-color: #002561;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 60px;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    letter-spacing: 50px;
+    padding-left: 20px;
+}
+
+/* ---------------------------------------------------------------------Media Queries */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+.free-tips-icons {
+    border-bottom: 20px;
+}
+
+.social-links li {
+    display: inline-block;
+    letter-spacing: 90px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+h2 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.centre-form {
+    min-height: 240px;
+    max-width: 70%;
+    padding-bottom: 30px;
+} 
+
+#hero-text h1 {
+    font-size: 4rem;
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+h2 {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.centre-form {
+    max-width: 80%;
+    min-height: 240px;
+    padding-top: 30px;
+}
+
+#hero-text h1 {
+    font-size: 4rem;    
+}
+
+.social-links li {
+    font-size: 1.5rem;
+    padding-left: 60px;
+}
+
+.thrifty-email {
+    font-size: 1.5rem;
+}
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+#hero-text h1 {
+    font-size: 5rem;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+}
+
+.icon-captions {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.social-links li {
+    font-size: 1.5rem;
+    padding-left: 70px;
+    
+}
+
+.thrifty-email {
+    font-size: 1.5rem;
+}
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+#hero-text h1 {
+    font-size: 5.5rem;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+}
+
+.icon-container {
+    justify-content: center;
+}
+
+.icon-captions {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+.thrifty-email {
+    font-size: 2rem;
+}
+
+.social-links li {
+    font-size: 2rem;
+    padding-left: 90px;
+}
+}
