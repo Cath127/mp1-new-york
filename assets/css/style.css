@@ -195,8 +195,6 @@ h6 {
 }
 
 /* -------------------------------------------------------------------- Tips Container */
-
-
 .free-tips-box {
     background-color: #98f698;
     border: 3px solid #ffac75;
@@ -279,12 +277,17 @@ h6 {
     display: inline-block;
     letter-spacing: 90px;
 }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 h2 {
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+.discounted-tips-box {
+    width: 100%;
 }
 
 .centre-form {
@@ -295,6 +298,7 @@ h2 {
 
 #hero-text h1 {
     font-size: 4rem;
+}
 }
 
  /* Large devices (desktops, 992px and up) */
@@ -320,20 +324,10 @@ h5 {
     font-size: 4rem;    
 }
 
-.social-links li {
-    font-size: 1.5rem;
-    padding-left: 60px;
-}
-
-.thrifty-email {
-    font-size: 1.5rem;
-}
-}
-
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 #hero-text h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 .intro-text {
@@ -362,7 +356,7 @@ h5 {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
 #hero-text h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
 }
 
 .intro-text {
