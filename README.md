@@ -34,7 +34,16 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 
 * ### Wireframes
-  ![Canva Wireframe](https://github.com/Cath127/mp1-new-york/assets/153606011/8aee31d7-c17b-48f5-894e-a1939b0d3347)
+   Desktop 
+   ![Desktop](https://github.com/Cath127/mp1-new-york/assets/153606011/07bc725e-1245-4332-a647-edc44a9c081a)
+
+   Tablet 
+
+   ![Tablet](https://github.com/Cath127/mp1-new-york/assets/153606011/7b908bd1-0e07-45a6-b1fa-e011ab74a44d)
+
+   Mobile 
+
+   ![Mobile](https://github.com/Cath127/mp1-new-york/assets/153606011/e2f29a33-8dc1-439e-a69b-c91c057183a9)
 
 ## Features
   The website a single scrolling page consisting of three sections: Home, Tips and Gallery.
@@ -80,11 +89,13 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   ### Frameworks, Libraries and Programs Used
    * ### [Balsamic](https://balsamiq.com/) was used to create wireframes.
    * ### [VS Code](https://code.visualstudio.com/) was used as a code editor.
+   * ### [Gitpod](https://www.gitpod.io/) was used for the CI template and to access VS Code
    * ### Git was used for version control.
    * ### [Github](https://github.com/) was used to store the code for the website.
    * ### [Bootstrap](https://getbootstrap.com/) was used to create the framework of the website.  Code for the navigation bar, buttons, forms and cards were used and modified. Additional CSS styling was implimented in style.css.
    * ### [Google Fonts](https://fonts.google.com/) was used to import fonts into the website.
    * ### [Font Awesome](https://fontawesome.com/) was used to add icons for aesthetic purposes.
+   * ### [CHAT GPT](https://chat.openai.com/) was used for the slogan and introductory text.
    * ### Google Development Tools was used to troubleshoot and test features, solve issues with responsiveness and styling.
 
 
