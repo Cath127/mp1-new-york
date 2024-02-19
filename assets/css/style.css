@@ -64,7 +64,7 @@ html {
     font-weight: 500;
     left: 50%; 
     letter-spacing: 2px;
-    padding-top: 20px;
+    padding-top: 100px;
     position: absolute;
     text-align: center;
     top: 50%; 
@@ -281,6 +281,14 @@ h6 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+#hero-image {
+    height: 80vh;
+}
+
+#hero-text h1 {
+    font-size: 4rem;
+}
+
 h2 {
     padding-bottom: 30px;
     padding-top: 30px;
@@ -296,13 +304,18 @@ h2 {
     padding-bottom: 30px;
 } 
 
-#hero-text h1 {
-    font-size: 4rem;
-}
-}
 
+}
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+#hero-image {
+     height: 100vh;
+}
+
+#hero-text h1 {
+    font-size: 5rem;
+}
+
 h2 {
     padding-bottom: 50px;
     padding-top: 50px;
@@ -320,22 +333,14 @@ h5 {
     padding-top: 30px;
 }
 
-#hero-text h1 {
-    font-size: 4rem;    
-}
-
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+#hero-image {
+    height: 110vh;
+}
+
 #hero-text h1 {
-    font-size: 4.5rem;
-}
-
-.intro-text {
-    font-size: 1.5rem;
-}
-
-.icon-captions {
-    font-size: 1.5rem;
+    font-size: 5.5rem;
 }
 
 h5 {
@@ -355,20 +360,17 @@ h5 {
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-#hero-text h1 {
-    font-size: 4.5rem;
+#hero-image {
+    height: 110vh;
 }
 
-.intro-text {
-    font-size: 1.5rem;
+#hero-text h1 {
+    font-size: 6.5rem;
+    padding-top: 0;
 }
 
 .icon-container {
     justify-content: center;
-}
-
-.icon-captions {
-    font-size: 1.5rem;
 }
 
 h5 {
