@@ -31,19 +31,12 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
    The two fonts used in the website are Poppins and Lexend Deca.  For the Navbar and heading Poppins has been used with Sans Serif as the fallback font. This is a clear and easy to read font. Lexend Deca is the main font used for the whole website with Sans Serif as the fallback font if Lexend isn't working properly.  Lexend is a dyslexia friendly font which is also beneficial for short-sighted people.
 
 * ### Imagery
-
+  The hero image has been chosen because it's an eye-catching instantly recognisable icon of New York.  All other pictures are also
+  familiar images.  All images were taken myself.
 
 * ### Wireframes
-   Desktop 
-   ![Desktop](https://github.com/Cath127/mp1-new-york/assets/153606011/07bc725e-1245-4332-a647-edc44a9c081a)
 
-   Tablet 
-
-   ![Tablet](https://github.com/Cath127/mp1-new-york/assets/153606011/7b908bd1-0e07-45a6-b1fa-e011ab74a44d)
-
-   Mobile 
-
-   ![Mobile](https://github.com/Cath127/mp1-new-york/assets/153606011/e2f29a33-8dc1-439e-a69b-c91c057183a9)
+  ![canva-wireframe](https://github.com/Cath127/mp1-new-york/assets/153606011/b34dea91-1f20-46dd-88e5-00ce463f6065)
 
 ## Features
   The website a single scrolling page consisting of three sections: Home, Tips and Gallery.
@@ -74,10 +67,41 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     * ###
       The bottom part of the home section has four Font Awesome icons which are linked to useful websites which open on a new page.  On a mobile device the icons are in a vertical line, a medium device icons are 2x2 and on large devices are positioned in a horizontal line.
 
+  * ### Tips Section
+    * ###
+      The tips section consists of free tips, discouted tips and a form to submit tips.
 
- 
+    * ###
+      Both the free tips and discounted tips column have five tips and buttons to get more information about each one.  On a mobile device these are underneath each other but display side by side on medium devices and bigger.
+
+    * ###
+      The form part is for someone who has visited New York is able to submit their own tip.
+
+  
+  * ### Gallery
+    * ###
+      The Gallery section consists of cards showing a photograph and text about some of the most iconic features of the city.
+
+    * ###
+      On a mobile device, three cards are displayed vertically: Central Park, Grand Central Station and Times Square.  On medium devices, four cards are displayed 2x2, all the mobile cards and Brooklyn Bridge.  On large devices, six cards are displayed 3x2 with Staten Island Ferry and Outdoor cinema being the two new cards. 
+
+  * ### Footer
+    * ###
+      The Footer section consists of an email address ( thriftynyc@example.com) and social link icons for Facebook, X, Instagram and Tiktok.
 
 ## Accessibility
+  I have tried to make the website as accessible to everyone as possible.  The ways in which I've done this are:
+  * ###
+    Using semantic HTML
+  * ###
+    Using descriptive alt attributes for images throughout the site.
+  * ###
+    Using easy to read dyslexia friendly fonts.
+  * ###
+    Using a relevant yet contrasting colour scheme on the whole page.
+  * ###
+    Providing clear navigation
+
  
 
 ## Technologies Used
