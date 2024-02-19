@@ -153,7 +153,6 @@ h6 {
 
 /* -------------------------------------------------------------------Intro Container */
 .intro-container {
-    display: fixed;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -196,10 +195,7 @@ h6 {
 }
 
 /* -------------------------------------------------------------------- Tips Container */
-.tips-container {
-    /* display: flex;
-    flex-direction: column; */
-}
+
 
 .free-tips-box {
     background-color: #98f698;
