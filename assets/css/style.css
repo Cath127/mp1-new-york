@@ -269,7 +269,8 @@ h6 {
 
 .social-links li {
     display: inline-block;
-    letter-spacing: 90px;
+    letter-spacing: 50px;
+    padding-left: 20px;
 }
 
 /* ---------------------------------------------------------------------Media Queries */
@@ -279,12 +280,9 @@ h6 {
     border-bottom: 20px;
 }
 
-/* .social-links li {
-    align-items: center;   
-    justify-content: center;
-    margin: 0;
-    vertical-align: middle;
-} */
+.social-links li {
+    display: inline-block;
+    letter-spacing: 90px;
 }
 
 /* Medium devices (tablets, 768px and up) */
