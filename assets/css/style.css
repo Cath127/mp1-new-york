@@ -13,7 +13,76 @@ body {
 
 html {
     scroll-behavior: smooth;
-  }
+}
+
+/* -----------------------------------------------------------------Headings */
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-transform: uppercase;    
+}
+
+h3 {
+    color:#002561 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-transform: uppercase;
+}
+
+ h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}   
+
+h5 {
+    color: #002561 !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------ Paragraph */
+.aerial-view-new p {
+    padding-bottom: 5px;
+    padding-top:10px;
+    text-align: center;
+}
+
+.free-tips-box p,
+.discounted-tips-box p {
+    color: #002561;
+    text-align: center;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+.footer-container p {
+    color: #fff;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+/* ------------------------------------------------------------------ Buttons */
+.activity-header a.btn {
+    border: #002561 solid 2px;
+    border-radius: 25%;
+    padding-right: 10px;
+}
 
 /* --------------------------------------------------------------- Navbar */
 .navbar {
@@ -32,6 +101,7 @@ html {
 
 .navbar-nav {
     align-items: center;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
     padding-right: 15px;
@@ -71,82 +141,7 @@ html {
     transform: translate(-50%, -50%); 
   }
   
-/* -----------------------------------------------------------------Headings */
-h2 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-style: dashed;
-    text-transform: uppercase;    
-}
-
-h3 {
-    color:#002561 !important;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    padding-top: 20px;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-transform: uppercase;
-    }
-
- h4 {
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
- }   
-
-h5 {
-    color: #002561 !important;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 10px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-h6 {
-    color: #fff !important;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    padding-top: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    }
-
-/* ------------------------------------------------------------------ Paragraph */
-.aerial-view-new p {
-    padding-bottom: 5px;
-    padding-top:10px;
-    text-align: center;
-}
-
-.free-tips-box p,
-.discounted-tips-box p {
-    color: #002561;
-    text-align: center;
-}
-
-.card-body p {
-    text-align: center;
-}
-
-.footer-container p {
-    color: #fff;
-    text-align: center;
-    word-spacing: 2px;
-}
-
-/* ------------------------------------------------------------------ Buttons */
-.activity-header a.btn {
-    border: #002561 solid 2px;
-    border-radius: 25%;
-    padding-right: 10px;
-}
-
+/* ------------------------------------------------------------------ Intro Container */
 .aerial-view-new {
     background: url("../images/aerial-view2.jpg");
     background-position: center center;
@@ -158,7 +153,6 @@ h6 {
 }
 
 .intro-text {
-    padding-right: 10px;
     padding-top: 10px;
     text-align: center;
 }
@@ -169,6 +163,11 @@ h6 {
     flex-direction: row;
 }
 
+.icons {
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 20px;    
+}
 .icon-captions {
     align-items: center;
     justify-content: center;
@@ -178,34 +177,24 @@ h6 {
     text-align: center;
 }
 
-.icons {
-    align-items: center; 
-    justify-content: center;
-    padding-bottom: 20px;    
+/* -------------------------------------------------------------------- Tips Container */
+.discounted-tips-box {
+    background-color: #94b8ff;
 }
 
-/* -------------------------------------------------------------------- Tips Container */
 .free-tips-box {
-    background-color: #98f698;
+    background-color: #98f698;  
+}
+
+.discounted-tips-box,
+.free-tips-box {
     border: 3px solid #ffac75;
     border-radius: 25px;
-    clear: both;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     line-height: 20px;  
-    margin-bottom: 20px;   
-}
-
-.discounted-tips-box {
-    background-color: #94b8ff;
-    border: 3px solid #ffac75;
-    border-radius: 25px;
-    clear: both;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    line-height: 20px; 
+    margin-bottom: 20px;  
 }
 
 .activity-header h5,
@@ -220,7 +209,7 @@ h6 {
 
 /* -------------------------------------------------------------------- Form Container */
 .form-container {
-    padding-top: 20px;
+    padding: 20px 12px;
 }
 
 .centre-form {
@@ -230,7 +219,6 @@ h6 {
     max-width: 70%;
     padding: 20px;
 }
-
 
 /* -------------------------------------------------------------------- Gallery Container */
 .gallery-container {
@@ -252,9 +240,7 @@ h6 {
     background-color: #002561;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     min-height: 60px;
-    text-align: center;
 }
 
 .thrifty-email {
@@ -262,11 +248,12 @@ h6 {
 }
 
 .social-links li {
-    align-items: center;
+    /* align-items: center; */
     display: inline-block;
-    justify-content: center;
+    /* justify-content: center; */
     letter-spacing: 70px;
     margin-bottom: 0;
+    padding-left: 45px;
 }
 
 /* ---------------------------------------------------------------------Media Queries */
@@ -311,9 +298,8 @@ h2 {
     max-width: 70%;
     padding-bottom: 30px;
 } 
-
-
 }
+
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 #hero-image {
@@ -421,7 +407,6 @@ h5 {
     font-size: 2rem;
     margin-left: 550px;
 }
-
 
 .social-links li {
     font-size: 2rem;
