@@ -354,6 +354,11 @@ h5 {
     padding-top: 30px;
 }
 
+.thrifty-email {
+    font-size: 1.5rem;
+    margin-left: 275px;
+}
+
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 #hero-image {
@@ -368,6 +373,19 @@ h5 {
     font-size: 1.5rem;
 }
 
+.activity-header {
+    width: 394px;
+    height: 100px;
+}
+
+.activity header h5 {
+    padding-top: 10px;
+}
+
+.free-tips-box {
+    margin-bottom: 0;
+}
+
 .social-links li {
     font-size: 1.5rem;
     padding-left: 70px;
@@ -376,6 +394,7 @@ h5 {
 
 .thrifty-email {
     font-size: 1.5rem;
+    margin-left: 450px;
 }
 }
 
@@ -400,7 +419,9 @@ h5 {
 
 .thrifty-email {
     font-size: 2rem;
+    margin-left: 550px;
 }
+
 
 .social-links li {
     font-size: 2rem;
