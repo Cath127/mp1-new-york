@@ -50,7 +50,7 @@ html {
 }
 
 #hero-image {
-    background-image: url("../images/liberty-new.jpg");
+    background-image: url("../images/liberty2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,7 +149,7 @@ h6 {
 }
 
 .aerial-view-new {
-    background: url("../images/aerial-view-new.jpg");
+    background: url("../images/aerial-view2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
