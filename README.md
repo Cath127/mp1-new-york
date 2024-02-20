@@ -1,5 +1,5 @@
 # **THRIFTY NYC Website**
-The THRIFTY NYC Website is designed to be responsive and accessible on a range of devices.  It allows visitors to find out more about free and discounted things in New York.  The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 project for Code Institute's diploma in Web Development.
+The THRIFTY NYC Website is designed to be responsive and accessible on a range of devices.  It allows visitors to find out more about free and discounted activities in New York.  The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 project for Code Institute's diploma in Web Development.
 
 ## User Experience (UX)
 * ### User Stories  
@@ -102,7 +102,13 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   * ###
     Providing clear navigation
 
- 
+## Future Implementations 
+  * ### 
+    As more tips are sent in they could be categorised into different types of attractions eg museums, outdoor, food etc.  People could also search for free or discounted tips.  Eventually they could be alphabetized too. 
+  * ###
+    Discounted deals could be made with food locations offering a percentage off if the customer mentions THRIFTY NYC.
+  * ###
+    Photos could also be submitted to extend the photo gallery.
 
 ## Technologies Used
 
@@ -121,6 +127,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
    * ### [Font Awesome](https://fontawesome.com/) was used to add icons for aesthetic purposes.
    * ### [CHAT GPT](https://chat.openai.com/) was used for the slogan and introductory text.
    * ### Google Development Tools was used to troubleshoot and test features, solve issues with responsiveness and styling.
+   * ### [Sqoosh](https://squoosh.app/) was used to decrease the dimensions and size of photos.
 
 
 ## Testing 
