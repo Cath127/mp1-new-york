@@ -139,6 +139,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 * ### First Time Visitor Goals
 
 
+
 * ### Returning Visitor Goals
 
 
@@ -158,14 +159,26 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 
 ## Credits
-### Code
+### Code Used
+* ### [Contrast Checker](https://webaim.org/resources/contrastchecker/?fcolor=02AFD0&bcolor=FFFF00) to ensure colours worked well together.
+* ### [Bootstrap Navbar](https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works) code used and styled.
+* ### [Code Institute]( https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/) Love Running Project - how to use Font Awesome icons.
+* ### [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2024_Q1/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=last)  Whisky Drop Project - how to hide text and pictures.
+* ### [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2024_Q1/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/)  Whisky Drop Project - Bootstrap grid system.
+* ### [Code Institute]( https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2024_Q1/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=last) CV Project - Layout of putting a picture next to text.
+* ### [Flex Boxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) how to use them.
+* ### [Youtube]( https://www.youtube.com/watch?v=SvlD_OPszuc) how to implement Bootstrap cards.
+* ### [Youtube](https://youtu.be/k4EGA95ZK4o?si=S6k_tMhLWz7guX7w) how to make a scrolling webpage.
+* ### [W3Schools](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp) how to have smooth scrolling.
+* ### [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2024_Q1/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/) CV Project - Adding a footer.
 
 
 ### Content
-
+* ### [CHAT GTP](https://chat.openai.com/) was used for the slogan and introductory text.
+* ### All other content was written by the developer.
 
 ### Media
-
+* ###  All photographs were taken by myself.
 
 ### Acknowledgements            
 
