@@ -289,7 +289,7 @@ h6 {
 }
 
 #hero-text h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 h2 {
@@ -317,7 +317,7 @@ h2 {
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 #hero-image {
-     height: 100vh;
+     height: 80vh;
 }
 
 #hero-text h1 {
@@ -333,6 +333,19 @@ h5 {
     font-size: 1.5rem;
     padding-bottom: 50px;
     padding-top: 50px;
+}
+
+.activity-header {
+    width: 394px;
+    height: 100px;
+}
+
+.activity header h5 {
+    padding-top: 10px;
+}
+
+.free-tips-box {
+    margin-bottom: 0;
 }
 
 .centre-form {
