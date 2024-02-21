@@ -200,23 +200,27 @@ h5 {
     border: 3px solid #ffac75;
     border-radius: 25px;
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
     line-height: 20px;  
     margin-bottom: 20px;
     text-align: center;  
 }
 
-.activity-header h5,
+.activity-header a.btn {
+    width: 50%;
+}
+
+/* .activity-header h5,
 .activity-header a.btn {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-}
+} */
 
-.activity-header h5 {
+/* .activity-header h5 {
     margin-right: 5px;
-}
+    text-align: center;
+    vertical-align: middle;
+} */
 
 /* -------------------------------------------------------------------- Form Container */
 .form-container {
@@ -294,15 +298,6 @@ h2 {
     padding-top: 30px;
 }
 
-.free-tips-box {
-    margin-left: 59px;
-    margin-right: 20px;
-}
-
-.discounted-tips-box {
-    width: 100%;
-}
-
 .centre-form {
     min-height: 240px;
     max-width: 70%;
@@ -327,23 +322,8 @@ h2 {
 
 h5 {
     font-size: 1.5rem;
-    padding-bottom: 50px;
-    padding-top: 50px;
 }
 
-.activity-header {
-    width: 394px;
-    height: 100px;
-}
-
-.activity header h5 {
-    padding-top: 10px;
-}
-
-.discounted-tips-box,
-.free-tips-box {
-    margin-bottom: 0;
-}
 
 .centre-form {
     max-width: 80%;
@@ -364,19 +344,6 @@ h5 {
 
 h5 {
     font-size: 1.5rem;
-}
-
-.activity-header {
-    width: 394px;
-    height: 100px;
-}
-
-.activity header h5 {
-    padding-top: 10px;
-}
-
-.free-tips-box {
-    margin-bottom: 0;
 }
 }
 
