@@ -341,10 +341,6 @@ h5 {
     min-height: 240px;
     padding-top: 30px;
 }
-
-.thrifty-email {
-    font-size: 1.5rem;
-}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -373,14 +369,6 @@ h5 {
 .free-tips-box {
     margin-bottom: 0;
 }
-
-.social-links li {
-    font-size: 1.5rem;
-}
-
-.thrifty-email {
-    font-size: 1.5rem;
-}
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
@@ -400,13 +388,5 @@ h5 {
 
 h5 {
     font-size: 1.5rem;
-}
-
-.thrifty-email {
-    font-size: 2rem;
-}
-
-.social-links li {
-    font-size: 2rem;
 }
 }
