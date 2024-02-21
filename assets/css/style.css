@@ -131,7 +131,7 @@ h5 {
 #hero-text h1 {
     color:#ffac75;
     font-family: 'Poppins', sans-serif;   
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     left: 50%; 
     letter-spacing: 2px;
@@ -141,6 +141,16 @@ h5 {
     top: 50%; 
     transform: translate(-50%, -50%); 
   }
+
+#hero-text-overlay {
+    width: 55%;
+    height: 75%;
+    background-color: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
   
 /* ------------------------------------------------------------------ Intro Container */
 .aerial-view-new {
