@@ -187,8 +187,9 @@ h5 {
 }
 
 /* -------------------------------------------------------------------- Tips Container */
+
 .discounted-tips-box {
-    background-color: #94b8ff;
+    background-color: #cfdaf2;
 }
 
 .free-tips-box {
@@ -202,6 +203,7 @@ h5 {
     color: #ffffff;
     line-height: 20px;  
     margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: center;  
 }
 
