@@ -45,13 +45,17 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     * ### 
       The navigation bar is at the top of the website to navigate to the different sections.
 
+    * ###
+      A sticky navigation bar has been used for the user to always be able to click on the titles regardless of where they are on the website.  
+
     * ### 
       On larger screens the title is at the left of the navbar and the navigation links are on the right as HOME | TIPS | GALLERY. On smaller screens the title is on the left and a hamburger button on the right. When expanded the section titles have a font awesome icon and are in the middle of the screen.  When a title is clicked the background turns the orange colour of the website background with a green border around it.
 
-  Desktop Navbar ![navbar desktop -fotor-2024021815482](https://github.com/Cath127/mp1-new-york/assets/153606011/0bf9b1cc-0b51-4433-b877-688339c0dd5e)
-  Mobile Navbar 
+       Desktop Navbar ![navbar desktop -fotor-2024021815482](https://github.com/Cath127/mp1-new-york/assets/153606011/0bf9b1cc-0b51-4433-b877-688339c0dd5e)
+    
+      Mobile Navbar 
 
-  ![mobile navbar](https://github.com/Cath127/mp1-new-york/assets/153606011/277446c5-7b59-4ab2-9a7a-0cc992dfe13f)
+      ![mobile navbar](https://github.com/Cath127/mp1-new-york/assets/153606011/277446c5-7b59-4ab2-9a7a-0cc992dfe13f)
 
   * ### Home Section
     * ###
@@ -60,14 +64,67 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     * ###
       The Statue of Libery is used as the hero image.  This is an instantly recognisable monument so users know exactly what the website is about without having to read anything.  The hero text is the same orange colour as the website background. Both are fully responsive.
 
+      ![hero image](https://github.com/Cath127/mp1-new-york/assets/153606011/19bdcf71-806f-4746-8650-304b6bcbc18e)
+
     * ###
       The top of the home section has an aerial image of New York on the left and two paragraphs of introductory text on the right.  For a better user experience on a mobile device the image is above the text and only one paragraph is visible.  On a medium device
       or larger the image and text sit side by side.
+      
+      Desktop
+
+      ![intro](https://github.com/Cath127/mp1-new-york/assets/153606011/6f47ff13-b663-4219-8f9d-669e61a36bda)
+
+      
+      Mobile
+
+      ![intro mobile](https://github.com/Cath127/mp1-new-york/assets/153606011/bbd83933-d1f2-4206-9024-427af3cf519e)
 
     * ###
       The bottom part of the home section has four Font Awesome icons which are linked to useful websites which open on a new page.  On a mobile device the icons are in a vertical line, a medium device icons are 2x2 and on large devices are positioned in a horizontal line.
 
-  * ### Tips Section
+
+      Desktop
+
+
+      ![websites desktop](https://github.com/Cath127/mp1-new-york/assets/153606011/cfe0459e-d7c4-47e9-a6d8-45748b645b98)
+
+
+      Tablet
+
+      ![websites tablet](https://github.com/Cath127/mp1-new-york/assets/153606011/dc949ce5-aca0-40c0-8607-e60d700f367b)
+
+
+      Mobile
+
+      ![websites mobile](https://github.com/Cath127/mp1-new-york/assets/153606011/5d63e28e-6ab6-4bb8-acdd-7ccfd6df0409)
+
+
+  * ### Gallery
+    * ###
+      The Gallery section consists of cards showing a photograph and text about some of the most iconic features of the city.
+
+    * ###
+      On a mobile device, three cards are displayed vertically: Central Park, Grand Central Station and Times Square.  On medium devices, four cards are displayed 2x2, all the mobile cards and Brooklyn Bridge.  On large devices, six cards are displayed 3x2 with Staten Island Ferry and Outdoor cinema being the two new cards. 
+     
+
+
+      Desktop
+
+      ![desktop gallery](https://github.com/Cath127/mp1-new-york/assets/153606011/c0164788-7373-4b8c-b0cc-0b3041fe0e28)
+
+
+      Tablet
+
+      ![tablet gallery](https://github.com/Cath127/mp1-new-york/assets/153606011/d358245d-d972-420c-a64c-13844ed2f9f7)
+
+
+      Mobile
+
+      ![mobile gallery](https://github.com/Cath127/mp1-new-york/assets/153606011/a4ea5b9c-4057-4d4c-bd1b-7e60c7fd8f9d)
+
+
+
+ * ### Tips Section
     * ###
       The tips section consists of free tips, discouted tips and a form to submit tips.
 
@@ -77,17 +134,13 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     * ###
       The form part is for someone who has visited New York is able to submit their own tip.
 
-  
-  * ### Gallery
-    * ###
-      The Gallery section consists of cards showing a photograph and text about some of the most iconic features of the city.
-
-    * ###
-      On a mobile device, three cards are displayed vertically: Central Park, Grand Central Station and Times Square.  On medium devices, four cards are displayed 2x2, all the mobile cards and Brooklyn Bridge.  On large devices, six cards are displayed 3x2 with Staten Island Ferry and Outdoor cinema being the two new cards. 
+      ![tips](https://github.com/Cath127/mp1-new-york/assets/153606011/872685b9-9a3f-48e7-9f3d-786435f7585c)
 
   * ### Footer
     * ###
       The Footer section consists of an email address ( thriftynyc@example.com) and social link icons for Facebook, X, Instagram and Tiktok.
+
+      ![footer](https://github.com/Cath127/mp1-new-york/assets/153606011/d2303bb1-4da9-43b3-b8bc-1392a956f43a)
 
 ## Accessibility
   I have tried to make the website as accessible to everyone as possible.  The ways in which I've done this are:
