@@ -125,6 +125,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
+    overflow-x: visible;
   }
   
 #hero-text h1 {
