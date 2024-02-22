@@ -124,7 +124,7 @@ h5 {
     background-size: cover;
     height: 60vh;
     overflow-x: visible;
-  }
+}
   
 #hero-text h1 {
     color:#ffac75;
@@ -138,7 +138,7 @@ h5 {
     text-align: center;
     top: 50%; 
     transform: translate(-50%, -50%); 
-  }
+}
 
 #hero-text-overlay {
     width: 65%;
@@ -211,19 +211,6 @@ h5 {
 .activity-header a.btn {
     width: 50%;
 }
-
-/* .activity-header h5,
-.activity-header a.btn {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-} */
-
-/* .activity-header h5 {
-    margin-right: 5px;
-    text-align: center;
-    vertical-align: middle;
-} */
 
 /* -------------------------------------------------------------------- Form Container */
 .form-container {
@@ -299,7 +286,6 @@ h5 {
     top: 55%;
 }
 
-
 h2 {
     padding-bottom: 30px;
     padding-top: 30px;
@@ -326,7 +312,6 @@ h2 {
     top: 55%;
 }
 
-
 h2 {
     padding-bottom: 50px;
     padding-top: 50px;
@@ -335,7 +320,6 @@ h2 {
 h5 {
     font-size: 1.5rem;
 }
-
 
 .centre-form {
     max-width: 80%;
@@ -357,7 +341,6 @@ h5 {
 #hero-text-overlay {
     top: 55%;
 }
-
 
 h5 {
     font-size: 1.5rem;
