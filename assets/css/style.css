@@ -177,7 +177,8 @@ h5 {
     justify-content: center;
     padding-bottom: 20px;    
 }
-#icon-captions {
+
+.icon-captions {
     align-items: center;
     justify-content: center;
     padding-top: 45px;
