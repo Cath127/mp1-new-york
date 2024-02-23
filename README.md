@@ -1,3 +1,7 @@
+pre.CodeMirror-line {
+    line-height: 1.1 !important;
+}
+
 # **THRIFTY NYC Website**
 The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 project for Code Institute's diploma in Web Development.
 ![responsive images transparent background](https://github.com/Cath127/mp1-new-york/assets/153606011/f78907c9-a198-4b4b-a5af-6c9a41a483d2)
@@ -6,47 +10,40 @@ The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 proj
 
 ## CONTENTS
 * ### [User Experience](#user-experience)
-  * ### [Strategy](#strategy)
-    * ###   [User Stories](#user-stories)
-  * ### [Scope](#scope)
-  * ### [Structure](#structure)
-  * ### [Skeleton](#skeleton)
-  * ### [Surface](#surface)
-
+  * #### [Strategy](#strategy)
+    * ####   [User Stories](#user-stories)
+  * #### [Scope](#scope)
+  * #### [Structure](#structure)
+  * #### [Skeleton](#skeleton)
+  * #### [Surface](#surface)
 * ### [Features](#features)
-  * ### [Navigation bar](#navigation-bar)
-  * ### [Home Section](#home-section)
-  * ### [Gallery](#gallery)
-  * ### [Tips Section](#tips-section)
-
+  * #### [Navigation bar](#navigation-bar)
+  * #### [Home Section](#home-section)
+  * #### [Gallery](#gallery)
+  * #### [Tips Section](#tips-section)
 * ### [Future Implementations](#future-implementaions)
-
 * ### [Accessibility](#accessibility)
-
 * ### [Technologies Used](#technologies-used)
-  * ### [Languages Used](#languages-used)
-  * ### [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
-
+  * #### [Languages Used](#languages-used)
+  * #### [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 * ### [Deployment & Local Development](#deployment--local-development)
-  * ### [Deployment](#deployment)
-  * ### [Local Development](#local-deployment)
-    * ### [How to Fork](#how-to-fork)
-    * ### [How to Clone](#how-to-clone)
-
+  * #### [Deployment](#deployment)
+  * #### [Local Development](#local-deployment)
+    * #### [How to Fork](#how-to-fork)
+    * #### [How to Clone](#how-to-clone)
 * ### [Testing](#testing)
-  * ### [Validator Testing](#validator-testing)
-  * ### [Lighthouse](#lighthouse)
-  * ### [Manual Testing](#manual-testing)
-  * ### [Further Testing](#further-testing)
-  * ### [Solved Bugs](#solved-bugs)
-  * ### [Known Bugs](#known-bugs)
-  * ### [Testing User Stories](#testing-user-stories)
-
+  * #### [Validator Testing](#validator-testing)
+  * #### [Lighthouse](#lighthouse)
+  * #### [Manual Testing](#manual-testing)
+  * #### [Further Testing](#further-testing)
+  * #### [Solved Bugs](#solved-bugs)
+  * #### [Known Bugs](#known-bugs)
+  * #### [Testing User Stories](#testing-user-stories)
 * ### [Credits](#credits)
-  * ### [Code Used](#code-used)
-  * ### [Content](#content)
-  * ### [Media](#media)
-  * ### [Acknowledgements]
+  * #### [Code Used](#code-used)
+  * #### [Content](#content)
+  * #### [Media](#media)
+  * #### [Acknowledgements](#acknowledgements)
 
 
 ## User Experience (UX)
@@ -202,6 +199,16 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     * ####
       Both the free tips and discounted tips column have five tips and buttons to get more information about each one.  On a mobile device these are underneath each other but display side by side on medium devices and bigger.
 
+      Desktop
+
+      ![tips desktop](https://github.com/Cath127/mp1-new-york/assets/153606011/a49e93fe-fa3e-43fd-8c10-1082c29734f2)
+
+
+      Mobile
+
+      ![tips mobile](https://github.com/Cath127/mp1-new-york/assets/153606011/2241c7c6-a019-4774-8361-1cc149b582c9)
+
+
     * ####
       The form part is for someone who has visited New York is able to submit their own tip.
 
@@ -249,7 +256,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
    * #### [Gitpod](https://www.gitpod.io/) was used for the CI template and to access VS Code
    * #### Git was used for version control.
    * #### [Github](https://github.com/) was used to store the code for the website.
-   * #### [Bootstrap](https://getbootstrap.com/) was used to create the framework of the website.  Code for the navigation bar, buttons, forms and cards were used and modified. Additional CSS styling was implimented in style.css.
+   * #### [Bootstrap](https://getbootstrap.com/) was used to create the framework of the website.  Code for the navigation bar, forms and cards were used and modified. Additional CSS styling was implimented in style.css.
    * #### [Google Fonts](https://fonts.google.com/) was used to import fonts into the website.
    * #### [Font Awesome](https://fontawesome.com/) was used to add icons for aesthetic purposes.
    * #### [CHAT GPT](https://chat.openai.com/) was used for the slogan and introductory text.
@@ -294,7 +301,6 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 * ### [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2024_Q1/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=last)  Whisky Drop Project - how to hide text and pictures.
 * ### [Code Institute](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2024_Q1/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/)  Whisky Drop Project - Bootstrap grid system.
 * ### [Code Institute]( https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2024_Q1/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=last) CV Project - Layout of putting a picture next to text.
-* ### [Flex Boxes](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) how to use them.
 * ### [Youtube]( https://www.youtube.com/watch?v=SvlD_OPszuc) how to implement Bootstrap cards.
 * ### [Youtube](https://youtu.be/k4EGA95ZK4o?si=S6k_tMhLWz7guX7w) how to make a scrolling webpage.
 * ### [W3Schools](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp) how to have smooth scrolling.
