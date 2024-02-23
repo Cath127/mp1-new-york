@@ -5,42 +5,40 @@ The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 proj
    [View THRIFTY NYC on Github](https://cath127.github.io/mp1-new-york/)
 
 ## CONTENTS
-* ### [User Experience](#user-experience)
-  * #### [Strategy](#strategy)
-    * ####   [User Stories](#user-stories)
-  * #### [Scope](#scope)
-  * #### [Structure](#structure)
-  * #### [Skeleton](#skeleton)
-  * #### [Surface](#surface)
-* ### [Features](#features)
-  * #### [Navigation bar](#navigation-bar)
-  * #### [Home Section](#home-section)
-  * #### [Gallery](#gallery)
-  * #### [Tips Section](#tips-section)
-* ### [Future Implementations](#future-implementaions)
-* ### [Accessibility](#accessibility)
-* ### [Technologies Used](#technologies-used)
-  * #### [Languages Used](#languages-used)
-  * #### [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
-* ### [Deployment & Local Development](#deployment--local-development)
-  * #### [Deployment](#deployment)
-  * #### [Local Development](#local-deployment)
-    * #### [How to Fork](#how-to-fork)
-    * #### [How to Clone](#how-to-clone)
-* ### [Testing](#testing)
-  * #### [Testing User Stories](#testing-user-stories)
-  * #### [Validator Testing](#validator-testing)
-  * #### [Lighthouse](#lighthouse)
-  * #### [Full Testing](#further-testing)
-  * #### [Solved Bugs](#solved-bugs)
-  * #### [Unsolved Bugs](#unsolved-bugs)
-  
-* ### [Credits](#credits)
-  * #### [Code Used](#code-used)
-  * #### [Content](#content)
-  * #### [Media](#media)
-  * #### [Acknowledgements](#acknowledgements)
-
+* [User Experience (UX)](#user-experience-(UX))
+  * [Strategy](#strategy)
+    * [User Stories](#user-stories)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+  * [Surface](#surface)
+* [Features](#features)
+  * [Navigation bar](#navigation-bar)
+  * [Home Section](#home-section)
+  * [Gallery](#gallery)
+  * [Tips Section](#tips-section)
+* [Future Implementations](#future-implementations)
+* [Accessibility](#accessibility)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+* [Testing](#testing)
+  * [Testing User Stories](#testing-user-stories)
+  * [Validator Testing](#validator-testing)
+  * [Lighthouse](#lighthouse)
+  * [Full Testing](#full-testing)
+  * [Solved Bugs](#solved-bugs)
+  * [Unsolved Bugs](#unsolved-bugs)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Deployment](#local-deployment)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
 ### Strategy
@@ -61,11 +59,10 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     a. As a frequent visitor, I want to see what new tips have been added.    
     b. As a frequent visitor, I want to check out new features as the website develops.
 
-
 ### Scope
   The goal for the project was to make an informative, easy to navigate, visually appealing website.
 
-### Stucture
+### Structure
   The website a single scrolling page consisting of three sections: Home, Tips and Gallery.
 
   * #### Home Page 
@@ -80,7 +77,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
   As well as the three sections the Thrifty NYC email and social media icons are shown in the footer.
 
-### Stucture
+### Skeleton
 
 * ### Wireframes
 
@@ -329,8 +326,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   Accessibility Suggestions:
 
   1.Background and foreground colors do not have a sufficient contrast ratio.  This is due to the colour of the links and the number of links that I have.
-
-
+  
   2.Heading elements are not in a sequentially-descending order.  This is due to is being a scrolling webpage so the headings are not in the right order which they would better on a three page website.
 
 ### Full Testing
@@ -342,7 +338,6 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     Laptop
     * ####
       Dell Precision 3550 15.55 inch screen
-
 
   * #### 
     Tablet
@@ -403,7 +398,10 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   2. On only an x large screen the Staten Island Ferry card (in the gallery section) is shorter than the other two cards.
 
 
-## Deployment
+## Deployment & Local Deployment
+  * ### Deployment
+    * ### How to Fork
+    * ### How to Clone
 
 
 
@@ -434,3 +432,4 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 
 [def]: https://github.com/Cath127/mp1-new-york/assets/153606011/42edf02f-9504-4eed-90b8-d46e37a744d8
+[def2]: #user-experience-(UX)
