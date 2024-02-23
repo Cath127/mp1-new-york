@@ -1,7 +1,3 @@
-pre.CodeMirror-line {
-    line-height: 1.1 !important;
-}
-
 # **THRIFTY NYC Website**
 The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 project for Code Institute's diploma in Web Development.
 ![responsive images transparent background](https://github.com/Cath127/mp1-new-york/assets/153606011/f78907c9-a198-4b4b-a5af-6c9a41a483d2)
@@ -32,13 +28,13 @@ The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 proj
     * #### [How to Fork](#how-to-fork)
     * #### [How to Clone](#how-to-clone)
 * ### [Testing](#testing)
+  * #### [Testing User Stories](#testing-user-stories)
   * #### [Validator Testing](#validator-testing)
   * #### [Lighthouse](#lighthouse)
-  * #### [Manual Testing](#manual-testing)
-  * #### [Further Testing](#further-testing)
+  * #### [Full Testing](#further-testing)
   * #### [Solved Bugs](#solved-bugs)
-  * #### [Known Bugs](#known-bugs)
-  * #### [Testing User Stories](#testing-user-stories)
+  * #### [Unsolved Bugs](#unsolved-bugs)
+  
 * ### [Credits](#credits)
   * #### [Code Used](#code-used)
   * #### [Content](#content)
@@ -80,6 +76,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
   * #### Tips
     A section where users would be able to read free or discounted attractions and a form where they would be able to send in their own New York tips.
+
 
   As well as the three sections the Thrifty NYC email and social media icons are shown in the footer.
 
@@ -266,27 +263,144 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
    * #### [Am I Responsive](https://amiresponsive.co.uk/) was used to display the home page image on different devices.
 
 ## Testing 
- 
-* ### [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
-* ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    
+  Chrome developer tools was used to identify and address any problems.
+  The following issues were raised in my second mentor meeting:
+
+  * #### To add an overlay to the hero image.
+  * #### To make the website icon captions clickable.
+  * #### To delete the underline of h2 headings.
+  * #### To remove buttons from the tips section and replace with a clickable link at the bottom.
+  * #### To move the gallery section after the useful websites and put the tips section last.
+  * #### To add meta tags to improve SEO.
+
+  All of these issues were addressed.
 
 ### Testing User Stories from User Experience (UX) Section
-* ### First Time Visitor Goals
+  * #### First Time Visitor Goals
+    a.  As a first time visitor, I want to be able to understand the purpose of the site.
+
+    ![intro](https://github.com/Cath127/mp1-new-york/assets/153606011/6f47ff13-b663-4219-8f9d-669e61a36bda)
+
+    b.  As a first time visitor, I want to be able to navigate the site easily to find information.   
+
+    Desktop Navbar ![navbar desktop -fotor-2024021815482](https://github.com/Cath127/mp1-new-york/assets/153606011/0bf9b1cc-0b51-4433-b877-688339c0dd5e)
+
+    c.  As a first time visitor, I want to look at social media links to find how active they are and what content they produce. 
+
+    ![footer](https://github.com/Cath127/mp1-new-york/assets/153606011/d2303bb1-4da9-43b3-b8bc-1392a956f43a)
+
+  * #### Returning Visitor Goals
+    a.  As a returning visitor, I want to be able to see tips while planning for/visiting NYC. 
+
+    ![tips desktop](https://github.com/Cath127/mp1-new-york/assets/153606011/a49e93fe-fa3e-43fd-8c10-1082c29734f2)
 
 
+    b.  As a returning visitor, I want to access useful websites while planning for/visiting NYC. 
 
-* ### Returning Visitor Goals
+    ![websites desktop](https://github.com/Cath127/mp1-new-york/assets/153606011/cfe0459e-d7c4-47e9-a6d8-45748b645b98)  
+
+    c.  As a returning visitor, I want to leave a useful tips for others.
+
+    ![tips](https://github.com/Cath127/mp1-new-york/assets/153606011/872685b9-9a3f-48e7-9f3d-786435f7585c)
+
+  * #### Frequent Visitor Goals
+    a. As a frequent visitor, I want to see what new tips have been added. (Future development)
+
+    b. As a frequent visitor, I want to check out new features as the website develops. (Future Development)
+
+  ### Validator Testing
+
+  W3C validator was used to validate the HTML on the website. It was used to validate CSS in the style.css file too.
+  ![HTML Checker](https://github.com/Cath127/mp1-new-york/assets/153606011/b881a286-0b0d-4d63-8970-5d706a1e9865)
 
 
-* ### Frequent User Goals
+  ![CSS validator](https://github.com/Cath127/mp1-new-york/assets/153606011/06f75474-2249-4d47-bbba-a78f47f3cdc6)
+  ![CSS warning](https://github.com/Cath127/mp1-new-york/assets/153606011/161d8c66-7160-45e5-b89a-dc371d428de5)
+
+  The CSS warning was due to Google Fonts being used which could not be validated (this didn't affect the validator passing the CSS code).
+
+  ### Lighthouse
+
+  I used Lighthouse within Chrome Developer Tools. This allowed me to test for performance, accessibility, best practices and the SEO (search engine optimization) of the website.
+
+  ![lighthouse](https://github.com/Cath127/mp1-new-york/assets/153606011/28e8ea96-0bb7-4f13-bb73-364645187b9a)
+    
+  Accessibility Suggestions:
+
+  1.Background and foreground colors do not have a sufficient contrast ratio.  This is due to the colour of the links and the number of links that I have.
 
 
+  2.Heading elements are not in a sequentially-descending order.  This is due to is being a scrolling webpage so the headings are not in the right order which they would better on a three page website.
 
-### Further Testing
+### Full Testing
+  The site was tested and functioned well on Chrome, Safari and Edge.
+
+  Full testing was carried out on the following devices:
+
+  * #### 
+    Laptop
+    * ####
+      Dell Precision 3550 15.55 inch screen
 
 
+  * #### 
+    Tablet
+    * ####
+      ipad (7th generation)
+    * ####
+      Samsung Galaxy S7+
 
-### Known Bugs
+  * #### 
+    Mobile
+    * ####
+      iphone 12
+    * ####
+      CAT S62 Pro
+
+  I also used Google Chrome developer tools to ensure that they responsive on all different screen sizes.
+
+
+  Links
+   * ####
+     All 22 links were tested.  Each link functioned properly and opened up a new website in another tab.
+
+   * #### Contact Form
+     * #### 
+       To find the form click on tips (navbar) and scroll to the bottom.
+     * #### 
+       Fill out all the fields including a valid "@" email.
+     * #### 
+       If the form is completed properly you will get this screen.
+
+      ![Form submit message](https://github.com/Cath127/mp1-new-york/assets/153606011/145aa9d6-64ab-41bf-83ec-4ed9dafc713b)
+
+     * #### 
+       If you try to submit without a name you will get this screen.
+
+       ![fill in name](https://github.com/Cath127/mp1-new-york/assets/153606011/9e94920b-99fe-48a2-917c-a3127ab3570b)
+
+     * #### 
+       If you try to submit without an email you will get this screen.
+
+       ![fill in email](https://github.com/Cath127/mp1-new-york/assets/153606011/3a7841c2-ce03-4a70-ad41-892ab42d5688)
+
+     * #### 
+       If you try to submit without a tip you will get this screen.
+
+       ![fill in tip](https://github.com/Cath127/mp1-new-york/assets/153606011/4924d225-c647-4508-badf-0cd83f4a6407)
+
+
+### Solved Bugs
+  1. CLI message "Your branch is behind 'origin/main' by 1 commit and can be fast forwarded.  Solved by using a force push (git push -f) as advised by Tutor Support.
+  2. Font Awesome icons for useful websites weren't centered on xx large devices. Solved by adding justify-content:center in Media Quieries.
+  3. Social media icons were too close together so it was hard to choose the required one (especially on a mobile).  Solved by adding margin-right: 20px.
+  4. A small gap appeared on the right of the hero image and footer due to the scrolling bar.  Solved by making the footer container fluid so there was no space.
+  5. Lighthouse test had a much lower accessibility score than the other three criteria due to no descritpive links in the tips area.  Once unique tips were added the score increased.
+  
+### Unsolved Bugs
+  1. There was a problem with VS code with the message "Failed to set up dynamic port forwarding connection over SSH to the VS Code server".  When this happened I lost my live preview.  Some commits were made before I would have liked because of this.  I then decided to commit when I finished each part I was doing before this message appeared therefore I have a lot more commits than I would have liked.
+  2. On only an x large screen the Staten Island Ferry card (in the gallery section) is shorter than the other two cards.
 
 
 ## Deployment
