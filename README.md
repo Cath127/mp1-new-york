@@ -109,11 +109,14 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
     * On larger screens the title is at the left of the navbar and the navigation links are on the right as HOME | TIPS | GALLERY. On  
       smaller screens the title is on the left and a hamburger button on the right. When expanded the section titles have a font awesome icon and are in the middle of the screen.  When a title is clicked the background turns the orange colour of the website background with a green border around it.
 
-      Desktop Navbar ![navbar desktop -fotor-2024021815482](https://github.com/Cath127/mp1-new-york/assets/153606011/0bf9b1cc-0b51-4433-b877-688339c0dd5e)
-    
-      Mobile Navbar 
+    Desktop Navbar
 
-      ![mobile navbar](https://github.com/Cath127/mp1-new-york/assets/153606011/277446c5-7b59-4ab2-9a7a-0cc992dfe13f)
+     ![desktop navbar](https://github.com/Cath127/mp1-new-york/assets/153606011/8cb8ae0c-9f75-4098-b6c4-08de5f0a94ab)
+
+       Mobile Navbar 
+
+     ![navbar mobile](https://github.com/Cath127/mp1-new-york/assets/153606011/f062489c-fe55-48a6-916a-8af17ad46c0f)
+
 
   * ### Home Section
     * The home section consists of a hero image, an image and introduction text and useful website icons.
@@ -260,7 +263,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
     b.  As a first time visitor, I want to be able to navigate the site easily to find information.   
 
-    Desktop Navbar ![navbar desktop -fotor-2024021815482](https://github.com/Cath127/mp1-new-york/assets/153606011/0bf9b1cc-0b51-4433-b877-688339c0dd5e)
+    ![desktop navbar](https://github.com/Cath127/mp1-new-york/assets/153606011/8cb8ae0c-9f75-4098-b6c4-08de5f0a94ab)
 
     c.  As a first time visitor, I want to look at social media links to find how active they are and what content they produce. 
 
