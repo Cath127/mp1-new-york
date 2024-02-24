@@ -331,7 +331,33 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 
   Links
-   * All 22 links were tested.  Each link functioned properly and opened up a new website in another tab.
+* All 22 links were tested.  Each link functioned properly and opened up a new website in another tab.
+
+| Feature                               |  Test Case                          | Outcome                                             |
+| :---------:                           | :----------------:                  | :-----------------------------------:               |
+| THRIFTY NYC                           | Click on Brand Name                 | User is brought to the home section                 |
+| Home button                           | Click on Home button                | User is brought to the home section                 |
+| Gallery button                        | Click on the Gallery button         | User is brought to the gallery section              |
+| Tips button                           | Click on the tips button            | User is brought to the tips section                 |
+| Subway map icon                       | Click on the icon                   | User is taken to mta website                        |
+| Subway map caption                    | Click on the caption                | User is taken to the mta website                    |
+| Map pin icon                          | Click on the icon                   | User is taken to visitor's guide website            |
+| Vistors'guide caption                 | Click on the caption                | User is taken to visitor's guide website            |
+| Calendar icon                         | Click on the icon                   | User is taken to NYC events calendar website        |
+| Calendar caption                      | Click on the caption                | User is taken to NYC events calendar website        |   
+| Dollar icon                           | Click on the icon                   | User is taken to a currency convertor website       |
+| Map pin caption                       | Click on the caption                | User is taken to a currency convertor website       |
+| Staten Island Ferry link              | Click on the link                   | User is taken to Staten Island Ferry website        |
+| Free Walking Tours link               | Click on the link                   | User is taken to Freebyfoottours.com website        |
+| Little Island link                    | Click on the link                   | User is taken to Little Island website              |
+| Outdoor Cinema Scehdule link          | Click on the link                   | User is taken to the NYC Parks website              |
+| Brooklyn Brewey Tours link            | Click on the link                   | User is taken to the Brookyln Brewery Tours website |
+| Macy's link                           | Click on the link                   | User is taken to Macy's website                     |
+| Discounted Tickets link               | Click on the link                   | User is taken to TDF website                        |
+| Museums Discount link                 | Click on the link                   | User is taken to Timeout NY Museums website         |
+| Eat and Play Card link                | Click on the link                   | User it taken to the Eat and Play Card website      |
+| Happy Hour Bars link                  | Click on the link                   | User is taken to the NY Simply website              |
+
 
    * #### Contact Form
      * To find the form click on tips (navbar) and scroll to the bottom.
