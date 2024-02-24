@@ -79,7 +79,8 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 ### Skeleton
 
-* Wireframes were created using Balsamic.  As it is a scrolling website only one wireframe is needed for each device size.
+* Wireframes were created using Balsamic. The final website isn't exactly the same as the wireframe as my mentor suggested moving the  
+  Tips section to the end which I agreed looked better. Also minimal text was added to the gallery photographs. As it is a scrolling website only one wireframe is needed for each device size.
 
   ![canva-wireframe](https://github.com/Cath127/mp1-new-york/assets/153606011/b34dea91-1f20-46dd-88e5-00ce463f6065)
 
@@ -103,11 +104,9 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   * ### Navigation bar
     * The navigation bar is at the top of the website to navigate to the different sections.
 
-    * A fixed navigation bar has been used for the user to always be able to click on the titles regardless of where they are on the   
-      website.  
+    * A fixed navigation bar has been used for the user to always be able to click on the titles regardless of where they are on the     website.  
 
-    * On larger screens the title is at the left of the navbar and the navigation links are on the right as HOME | TIPS | GALLERY. On  
-      smaller screens the title is on the left and a hamburger button on the right. When expanded the section titles have a font awesome icon and are in the middle of the screen.  When a title is clicked the background turns the orange colour of the website background with a green border around it.
+    * On larger screens the title is at the left of the navbar and the navigation links are on the right as HOME | TIPS | GALLERY. On smaller screens the title is on the left and a hamburger button on the right. When expanded the section titles have a font awesome icon and are in the middle of the screen.  When a title is clicked the background turns the orange colour of the website background with a green border around it.
 
     Desktop Navbar
 
@@ -121,8 +120,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   * ### Home Section
     * The home section consists of a hero image, an image and introduction text and useful website icons.
 
-    * The Statue of Libery is used as the hero image.  This is an instantly recognisable monument so users know exactly what the  
-      website is about without having to read anything.  The hero text is the same orange colour as the website background. Both are fully responsive.
+    * The Statue of Libery is used as the hero image.  This is an instantly recognisable monument so users know exactly what the   website is about without having to read anything.  The hero text is the same orange colour as the website background. Both are fully responsive.
 
       ![hero image](https://github.com/Cath127/mp1-new-york/assets/153606011/19bdcf71-806f-4746-8650-304b6bcbc18e)
 
@@ -180,7 +178,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
  * ### Tips Section
     * The tips section consists of free tips, discouted tips and a form to submit tips.
 
-    * Both the free tips and discounted tips column have five tips and buttons to get more information about each one.  On a mobile 
+    * Both the free tips and discounted tips column have five tips and links to get more information about each one.  On a mobile 
       device these are underneath each other but display side by side on medium devices and bigger.
 
       Desktop
@@ -198,8 +196,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
       ![tips](https://github.com/Cath127/mp1-new-york/assets/153606011/872685b9-9a3f-48e7-9f3d-786435f7585c)
 
   * ### Footer
-    * The Footer section consists of an email address ( thriftynyc@example.com) and social link icons for Facebook, X, Instagram and   
-     Tiktok.
+    * The Footer section consists of an email address ( thriftynyc@example.com) and social link icons for Facebook, X, Instagram and       Tiktok.
 
       ![footer](https://github.com/Cath127/mp1-new-york/assets/153606011/d2303bb1-4da9-43b3-b8bc-1392a956f43a)
 
@@ -232,7 +229,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
    * [Gitpod](https://www.gitpod.io/) was used for the CI template and to access VS Code
    * Git was used for version control.
    * [Github](https://github.com/) was used to store the code for the website.
-   * [Bootstrap](https://getbootstrap.com/) was used to create the framework of the website.  Code for the navigation bar, forms and cards were used and modified. Additional CSS styling was implimented in style.css.
+   * [Bootstrap](https://getbootstrap.com/) was used to create the framework of the website.  Code for the navigation bar, form and cards were used and modified. Additional CSS styling was implimented in style.css.
    * [Google Fonts](https://fonts.google.com/) was used to import fonts into the website.
    * [Font Awesome](https://fontawesome.com/) was used to add icons for aesthetic purposes.
    * [CHAT GPT](https://chat.openai.com/) was used for the slogan and introductory text.
@@ -243,7 +240,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 ## Testing 
     
-  Chrome developer tools was used to identify and address any problems.
+  Chrome developer tools were used to identify and address any problems.
   The following issues were raised in my second mentor meeting:
 
   * To add an overlay to the hero image.
@@ -383,10 +380,10 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 ### Solved Bugs
   1. CLI message "Your branch is behind 'origin/main' by 1 commit and can be fast forwarded.  Solved by using a force push (git push -f) as advised by Tutor Support.
-  2. Font Awesome icons for useful websites weren't centered on xx large devices. Solved by adding justify-content:center in Media Quieries.
+  2. Font Awesome icons for useful websites weren't centered on xx large devices. Solved by adding justify-content:center in Media Queries.
   3. Social media icons were too close together so it was hard to choose the required one (especially on a mobile).  Solved by adding margin-right: 20px.
   4. A small gap appeared on the right of the hero image and footer due to the scrolling bar.  Solved by making the footer container fluid so there was no space.
-  5. Lighthouse test had a much lower accessibility score than the other three criteria due to no descritpive links in the tips area.  Once unique tips were added the score increased.
+  5. Lighthouse test had a much lower accessibility score than the other three criteria due to no descriptive links in the tips area.  Once unique tips were added the score increased.
   
 ### Unsolved Bugs
   1. There was a problem with VS code with the message "Failed to set up dynamic port forwarding connection over SSH to the VS Code server".  When this happened I lost my live preview.  Some commits were made before I would have liked because of this.  I then decided to commit when I finished each part I was doing before this message appeared therefore I have a lot more commits than I would have liked. (By the end of the project there were 143 ports open).
