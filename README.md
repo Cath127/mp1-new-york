@@ -42,7 +42,7 @@ The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 proj
 
 ## User Experience (UX)
 ### Strategy
-The THRIFTY NYC Website is designed to be responsive and accessible on a range of devices.  There is a different layout for the introduction part, useful websites and the gallery depending on what device you are using.  It allows visitors to find out more about free and discounted activities in New York.
+The THRIFTY NYC Website is designed to be responsive and accessible on a range of devices.  There is a different layout for the introduction, useful websites and the gallery depending on what device you are using.  It allows visitors to find out more about free and discounted activities in New York.
 
 * ### User Stories  
   * #### First Time Visitor Goals
@@ -63,24 +63,23 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   The goal for the project was to make an informative, easy to navigate, visually appealing website.
 
 ### Structure
-  The website a single scrolling page consisting of three sections: Home, Tips and Gallery.
+  The website is a single scrolling page consisting of three sections: Home, Gallery and Tips.
 
-* Home Page 
+*  The Home Page 
     tells users some introductory information what the website is about and useful links (in the form of Font Awesome Icons) which would be helpful when visiting/planning a visit to New York.
 
-* Gallery
+* The Gallery
     showing some photographs and information of renowned places in New York.
 
-*  Tips
-   section where users would be able to read free or discounted attractions and a form where they would be able to send in their own New York tips.
+*  The Tips
+   section where users would be able to read about free or discounted attractions and a form where they would be able to send in their own New York tips.
 
 
   As well as the three sections the Thrifty NYC email and social media icons are shown in the footer.
 
 ### Skeleton
 
-* Wireframes were created using Balsamic. The final website isn't exactly the same as the wireframe as my mentor suggested moving the  
-  Tips section to the end which I agreed looked better. Also minimal text was added to the gallery photographs. As it is a scrolling website only one wireframe is needed for each device size.
+* Wireframes were created using Balsamic. The final website isn't exactly the same as the wireframe as my mentor suggested moving the Tips section to the end which I agreed looked better. Also minimal text was added to the gallery photographs. As it is a scrolling website only one wireframe is needed for each device size.
 
   ![canva-wireframe](https://github.com/Cath127/mp1-new-york/assets/153606011/b34dea91-1f20-46dd-88e5-00ce463f6065)
 
@@ -88,10 +87,24 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
  
 * #### Colour Scheme
      Here are the official colours of the New York Flag
+
+    
      ![nyc-flag-colours](https://github.com/Cath127/mp1-new-york/assets/153606011/db1196b1-f018-4f89-86c7-5ae12e14e1c8)
-     After putting the colours through(https://webaim.org/resources/contrastchecker/) I had this result
+     <br />
+     <br />
+     <br />
+     After putting the colours through(https://webaim.org/resources/contrastchecker/) I had this result:
+     <br />
+     <br />
+     <br />
      ![original colour contrast check](https://github.com/Cath127/mp1-new-york/assets/153606011/e5a210dd-3eaf-45a9-8f2b-4c34a332ba1d)
-     I decided I still liked the orange and navy contrast but lightened the orange colour 
+     <br />
+     <br />
+     <br />
+     I decided I still liked the orange and navy contrast but lightened the orange colour. 
+     <br />
+     <br />
+     <br />
      ![new contrast checker](https://github.com/Cath127/mp1-new-york/assets/153606011/bfccfb8c-bf36-461a-9fa9-f708245cc6cb)
 
 
@@ -106,7 +119,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
     * A fixed navigation bar has been used for the user to always be able to click on the titles regardless of where they are on the     website.  
 
-    * On larger screens the title is at the left of the navbar and the navigation links are on the right as HOME | TIPS | GALLERY. On smaller screens the title is on the left and a hamburger button on the right. When expanded the section titles have a font awesome icon and are in the middle of the screen.  When a title is clicked the background turns the orange colour of the website background with a green border around it.
+    * On larger screens the title is at the left of the navbar and the navigation links are on the right as HOME | GALLERY | TIPS. On smaller screens the title is on the left and a hamburger button on the right. When expanded the section titles have a font awesome icon and are in the middle of the screen.  When a title is clicked the background turns the orange colour of the website background with a green border around it.
 
     Desktop Navbar
 
@@ -176,10 +189,9 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
       ![mobile gallery](https://github.com/Cath127/mp1-new-york/assets/153606011/a4ea5b9c-4057-4d4c-bd1b-7e60c7fd8f9d)
 
  * ### Tips Section
-    * The tips section consists of free tips, discouted tips and a form to submit tips.
+    * The tips section consists of free activities, discounted activities and a form to submit tips.
 
-    * Both the free tips and discounted tips column have five tips and links to get more information about each one.  On a mobile 
-      device these are underneath each other but display side by side on medium devices and bigger.
+    * Both the free activities and discounted activities column have five tips and links to get more information about each one.  On a  mobile device these are underneath each other but display side by side on medium devices and bigger.
 
       Desktop
 
@@ -241,7 +253,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 ## Testing 
     
   Chrome developer tools were used to identify and address any problems.
-  The following issues were raised in my second mentor meeting:
+  The following suggestions were raised in my second mentor meeting:
 
   * To add an overlay to the hero image.
   * To make the website icon captions clickable.
@@ -386,7 +398,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   5. Lighthouse test had a much lower accessibility score than the other three criteria due to no descriptive links in the tips area.  Once unique tips were added the score increased.
   
 ### Unsolved Bugs
-  1. There was a problem with VS code with the message "Failed to set up dynamic port forwarding connection over SSH to the VS Code server".  When this happened I lost my live preview.  Some commits were made before I would have liked because of this.  I then decided to commit when I finished each part I was doing before this message appeared therefore I have a lot more commits than I would have liked. (By the end of the project there were 143 ports open).
+  1. There was a problem with VS code with the message "Failed to set up dynamic port forwarding connection over SSH to the VS Code server".  When this happened I lost my live preview.  Some commits were made before I would have liked because of this.  I then decided to commit when I finished each part I was doing before this message appeared, therefore I have a lot more commits than I would have liked. (By the end of the project there were 143 ports open).
   2. On only an x large screen the Staten Island Ferry card (in the gallery section) is shorter than the other two cards.
 
 
