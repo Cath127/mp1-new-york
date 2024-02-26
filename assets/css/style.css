@@ -187,8 +187,22 @@ h5 {
     text-align: center;
 }
 
-/* -------------------------------------------------------------------- Tips Container */
+/* -------------------------------------------------------------------- Gallery Container */
+.gallery-container {
+    padding-bottom: 30px;
+}
 
+.card-img-top {
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* -------------------------------------------------------------------- Tips Container */
 .discounted-tips-box {
     background-color: #cfdaf2;
 }
@@ -223,21 +237,6 @@ h5 {
     margin: 0 auto;
     max-width: 70%;
     padding: 20px;
-}
-
-/* -------------------------------------------------------------------- Gallery Container */
-.gallery-container {
-    padding-bottom: 30px;
-}
-
-.card-img-top {
-    border-radius: 50px;
-    padding: 20px;
-}
-
-.card {
-    border-radius: 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* -------------------------------------------------------------------- Footer Container */
