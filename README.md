@@ -1,8 +1,8 @@
 # **THRIFTY NYC Website**
-The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 project for Code Institute's diploma in Web Development.
+THRIFTY NYC is a website to inform users who are going to New York about the deals that they would be able to find. They are also about to submit their own discount suggestions for others.
 ![responsive images transparent background](https://github.com/Cath127/mp1-new-york/assets/153606011/f78907c9-a198-4b4b-a5af-6c9a41a483d2)
 
-   [View THRIFTY NYC on Github](https://cath127.github.io/mp1-new-york/)
+   [View the live site here](https://cath127.github.io/mp1-new-york/)
 
 ## CONTENTS
 * [User Experience (UX)](#user-experience-ux)
@@ -234,6 +234,7 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   ### Languages Used
    * [HTML5](https://en.wikipedia.org/wiki/HTML5)
    * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+   * [Bootstrap](https://getbootstrap.com/)
    
   ### Frameworks, Libraries and Programs Used
    * [Balsamic](https://balsamiq.com/) was used to create wireframes.
@@ -455,7 +456,12 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 ### Media
 * All photographs were taken by myself.
 
-### Acknowledgements            
+### Acknowledgements   
+* My mentor Femi for planning suggestions and where improvements could be made. 
+* My Code Instititue Cohort Facilitator Kristyna and cohort friends for the weekly meetings and constant motivation.
+* Tutor support for their help.
+* My partner Chris for the support, patience and checking my README.
+* My mother for the encouragement and belief in me.    
 
 
 
