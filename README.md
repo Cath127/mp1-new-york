@@ -1,5 +1,7 @@
 # **THRIFTY NYC Website**
-THRIFTY NYC is a website to inform users who are going to New York about the deals that they would be able to find. They are also about to submit their own discount suggestions for others.
+THRIFTY NYC is a website to inform users who are going to New York about the deals that they would be able to find. They are also able to submit their own discount suggestions for others.  
+<br>
+The site has been built using HTML5, CSS3 and Bootstrap for the Milestone 1 project for Code Institute's diploma in Web Development.
 ![responsive images transparent background](https://github.com/Cath127/mp1-new-york/assets/153606011/f78907c9-a198-4b4b-a5af-6c9a41a483d2)
 
    [View the live site here](https://cath127.github.io/mp1-new-york/)
