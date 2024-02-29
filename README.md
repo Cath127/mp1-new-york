@@ -234,7 +234,6 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
   ### Languages Used
    * [HTML5](https://en.wikipedia.org/wiki/HTML5)
    * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3)
-   * [Bootstrap](https://getbootstrap.com/)
    
   ### Frameworks, Libraries and Programs Used
    * [Balsamic](https://balsamiq.com/) was used to create wireframes.
@@ -458,7 +457,8 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 
 ### Acknowledgements   
 * My mentor Femi for planning suggestions and where improvements could be made. 
-* My Code Instititue Cohort Facilitator Kristyna and cohort friends for the weekly meetings and constant motivation.
+* My Code Instititue Cohort Facilitator Kristyna for informative weekly meetings and constant motivation.
+* My cohort friends for advice and sharing ideas 
 * Tutor support for their help.
 * My partner Chris for the support, patience and checking my README.
 * My mother for the encouragement and belief in me.    
