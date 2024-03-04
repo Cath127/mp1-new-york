@@ -402,6 +402,8 @@ The THRIFTY NYC Website is designed to be responsive and accessible on a range o
 ### Unsolved Bugs
   1. There was a problem with VS code with the message "Failed to set up dynamic port forwarding connection over SSH to the VS Code server".  When this happened I lost my live preview.  Some commits were made before I would have liked because of this.  I then decided to commit when I finished each part I was doing before this message appeared, therefore I have a lot more commits than I would have liked. (By the end of the project there were 143 ports open).
   2. On only an x large screen the Staten Island Ferry card (in the gallery section) is shorter than the other two cards.
+  3. Aria-label added to line 64 (aerial-view2) but had a warning message (Possible misuse of aria-label)when put through the HTML checker.
+  4. Git commits written in the past instead of present tense.
 
 
 ## Deployment & Local Deployment
